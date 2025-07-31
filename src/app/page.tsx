@@ -74,20 +74,16 @@ export default function Home() {
                   </h1>
                 </div>
                 <p className="mx-auto max-w-[700px] text-primary md:text-xl text-justify">
-                  👋 Hey there! I&apos;m{' '}
+                  👋 𝙷𝚎𝚢 𝚝𝚑𝚎𝚛𝚎! 𝙸'𝚖{' '}
                   <Link
                     href="https://www.linkedin.com/in/avinash-praveen/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline hover:text-primary-foreground"
                   >
-                    Avinash
+                    𝙰𝚟𝚒𝚗𝚊𝚜𝚑
                   </Link>
-                  , and welcome to AVIMDB my personal vault of cinematic treasures (and the occasional guilty pleasure) spanning movies, TV shows, and anime I&apos;ve binged over the years.
-                  <br /><br />
-                  Each entry is ranked based on acting, music, cinematography and rewatchability.
-                  <br />
-                  And if your favorite didn&apos;t make the list, just know you aren&apos;t cultured enough.
+                  , 𝚊𝚗𝚍 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝙰𝚅𝙸𝙼𝙳𝙱 𝚖𝚢 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕 𝚟𝚊𝚞𝚕𝚝 𝚘𝚏 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚒𝚌 𝚝𝚛𝚎𝚊𝚜𝚞𝚛𝚎𝚜 (𝚊𝚗𝚍 𝚝𝚑𝚎 𝚘𝚌𝚌𝚊𝚜𝚒𝚘𝚗𝚊𝚕 𝚐𝚞𝚒𝚕𝚝𝚢 𝚙𝚕𝚎𝚊𝚜𝚞𝚛𝚎) 𝚜𝚙𝚊𝚗𝚗𝚒𝚗𝚐 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚃𝚅 𝚜𝚑𝚘𝚠𝚜, 𝚊𝚗𝚍 𝚊𝚗𝚒𝚖𝚎 𝙸'𝚟𝚎 𝚋𝚒𝚗𝚐𝚎𝚍 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚢𝚎𝚊𝚛𝚜.  𝙴𝚊𝚌𝚑 𝚎𝚗𝚝𝚛𝚢 𝚒𝚜 𝚛𝚊𝚗𝚔𝚎𝚍 𝚋𝚊𝚜𝚎𝚍 𝚘𝚗 𝚊𝚌𝚝𝚒𝚗𝚐, 𝚖𝚞𝚜𝚒𝚌, 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢 𝚊𝚗𝚍 𝚛𝚎𝚠𝚊𝚝𝚌𝚑𝚊𝚋𝚒𝚕𝚒𝚝𝚢. 𝙰𝚗𝚍 𝚒𝚏 𝚢𝚘𝚞𝚛 𝚏𝚊𝚟𝚘𝚛𝚒𝚝𝚎 𝚍𝚒𝚍𝚗'𝚝 𝚖𝚊𝚔𝚎 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝, 𝚓𝚞𝚜𝚝 𝚔𝚗𝚘𝚠 𝚢𝚘𝚞 𝚊𝚛𝚎𝚗'𝚝 𝚌𝚞𝚕𝚝𝚞𝚛𝚎𝚍 𝚎𝚗𝚘𝚞𝚐𝚑.
                 </p>
               </div>
             </div>
