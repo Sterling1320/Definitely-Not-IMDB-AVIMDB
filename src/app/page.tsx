@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Clapperboard, Tv, Film, Star } from 'lucide-react';
@@ -13,13 +14,32 @@ import { cn } from '@/lib/utils';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
+  const [isNavigating, setIsNavigating] = useState(false);
+  const router = useRouter();
+
+  const handleMovieNavigation = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    setIsNavigating(true);
+    setTimeout(() => {
+      router.push('/movies');
+    }, 1200); // Match animation duration
+  };
+
 
   return (
     <>
       {loading && <SplashScreen onAnimationComplete={() => setLoading(false)} />}
+      
+      {isNavigating && (
+        <div className="fixed inset-0 z-[200] flex items-center justify-center bg-background/80 animate-page-fade-in">
+            <Film className="h-32 w-32 text-primary animate-reel-out" />
+        </div>
+      )}
+
       <div className={cn(
         "flex flex-col min-h-screen bg-background text-foreground transition-opacity duration-500",
-        loading ? "opacity-0" : "opacity-100"
+        loading ? "opacity-0" : "opacity-100",
+        isNavigating && 'animate-page-fade-out'
       )}>
         <main className="flex-1">
           <section className="w-full py-20 md:py-32 lg:py-40">
@@ -63,8 +83,8 @@ export default function Home() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">Browse through a collection of cinematic masterpieces.</p>
-                    <Button asChild className="mt-6">
-                      <Link href="/movies">Explore Movies</Link>
+                    <Button onClick={handleMovieNavigation} className="mt-6">
+                      Explore Movies
                     </Button>
                   </CardContent>
                 </Card>
