@@ -73,8 +73,8 @@ export default function Home() {
                     🅐🅥🅘🅜🅓🅑
                   </h1>
                 </div>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  👋 Hello there! I&apos;m{' '}
+                <p className="mx-auto max-w-[700px] text-foreground md:text-xl">
+                  👋 Hello there! I&apos;s a pleasure to meet you! I&apos;m{' '}
                   <Link
                     href="https://www.linkedin.com/in/avinash-praveen/"
                     target="_blank"
