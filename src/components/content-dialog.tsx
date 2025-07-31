@@ -1,3 +1,4 @@
+
 'use client';
 
 import {
@@ -61,7 +62,7 @@ export function ContentDialog({ content, isOpen, onOpenChange }: ContentDialogPr
 
               <Button asChild className="mt-6 w-full md:w-auto">
                 <a href={content.externalLink} target="_blank" rel="noopener noreferrer">
-                  View on IMDb <ExternalLink className="ml-2 h-4 w-4" />
+                  Watch Now <ExternalLink className="ml-2 h-4 w-4" />
                 </a>
               </Button>
             </div>
