@@ -43,7 +43,7 @@ export default function Home() {
                 <span className="absolute -bottom-4 -right-16 rotate-12 font-black text-5xl text-red-500 animate-comic-text" style={{ animationDelay: '50ms', textShadow: '2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000' }}>POW!</span>
               </div>
             )}
-            {animationType === 'star' && <Star className="h-32 w-32 text-primary animate-shooting-star-out" />}
+            {animationType === 'star' && <Star className="h-32 w-32 text-primary animate-rotating-star-out" />}
         </div>
       )}
 

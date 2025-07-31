@@ -145,17 +145,17 @@ body {
 }
 
 
-@keyframes shooting-star-out {
+@keyframes rotating-star-out {
   0% {
-    transform: scale(0.5) translate(0, 0) rotate(0deg);
+    transform: scale(0) rotate(0deg);
     opacity: 0;
   }
   50% {
-    transform: scale(1.2) translate(-50px, 50px) rotate(45deg);
+    transform: scale(1.2) rotate(360deg);
     opacity: 1;
   }
   100% {
-    transform: scale(0) translate(-150px, 150px) rotate(90deg);
+    transform: scale(5) rotate(720deg);
     opacity: 0;
   }
 }
@@ -185,6 +185,6 @@ body {
   animation: comic-text-appear 0.8s ease-in-out forwards;
 }
 
-.animate-shooting-star-out {
-  animation: shooting-star-out 0.8s ease-in-out forwards;
+.animate-rotating-star-out {
+  animation: rotating-star-out 0.8s ease-in-out forwards;
 }
