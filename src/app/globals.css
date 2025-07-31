@@ -133,20 +133,17 @@ body {
   }
 }
 
-@keyframes sword-slash-out {
-  0% {
-    transform: scale(0) rotate(0deg);
-    opacity: 0;
-  }
-  50% {
-    transform: scale(1.2) rotate(10deg);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(5) rotate(-10deg);
-    opacity: 0;
-  }
+@keyframes comic-pow-out {
+  0% { transform: scale(0); opacity: 0; }
+  30% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(5); opacity: 0; }
 }
+
+@keyframes comic-text-appear {
+  0%, 100% { transform: scale(0); opacity: 0; }
+  20%, 80% { transform: scale(1); opacity: 1; }
+}
+
 
 @keyframes shooting-star-out {
   0% {
@@ -180,8 +177,12 @@ body {
   animation: tv-out 0.8s ease-in-out forwards;
 }
 
-.animate-sword-slash-out {
-  animation: sword-slash-out 0.8s ease-in-out forwards;
+.animate-comic-pow-out {
+  animation: comic-pow-out 0.8s ease-in-out forwards;
+}
+
+.animate-comic-text {
+  animation: comic-text-appear 0.8s ease-in-out forwards;
 }
 
 .animate-shooting-star-out {
