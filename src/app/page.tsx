@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Clapperboard, Tv, Film, Star } from 'lucide-react';
-import AvimdbLogo from './AVIMDB logo.jpg';
+import AvimdbLogo from './AVIMDB logo.png';
 
 export default function Home() {
   return (
