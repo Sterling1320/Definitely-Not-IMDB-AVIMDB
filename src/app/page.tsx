@@ -74,7 +74,7 @@ export default function Home() {
                   </h1>
                 </div>
                 <p className="mx-auto max-w-[700px] text-primary md:text-xl">
-                  👋 Hello there! I&apos;s a pleasure to meet you! I&apos;m{' '}
+                  👋 Hey there! I&apos;m{' '}
                   <Link
                     href="https://www.linkedin.com/in/avinash-praveen/"
                     target="_blank"
@@ -83,11 +83,11 @@ export default function Home() {
                   >
                     Avinash
                   </Link>
-                  , and this is AVIMDB, my personal vault of some of the finest (and occasionally questionable) movies, TV shows, and anime I’ve consumed over the years.
+                  , and welcome to AVIMDB my personal vault of cinematic treasures (and the occasional guilty pleasure) spanning movies, TV shows, and anime I&apos;ve binged over the years.
                   <br /><br />
-                  Every title here has been judged by me on factors like acting, music, plot impact, and most importantly... whether I ever felt like watching it again.
+                  Each entry is ranked based on acting, music, cinematography and rewatchability.
                   <br />
-                  If your favorite show didn’t make the cut, don’t take it personally it just means your taste is lowkey trash :p
+                  And if your favorite didn&apos;t make the list, just know you aren&apos;t cultured enough.
                 </p>
               </div>
             </div>
