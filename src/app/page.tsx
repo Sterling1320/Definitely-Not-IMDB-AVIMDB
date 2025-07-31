@@ -11,7 +11,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
-                Definitely Not IMDb
+                AVIMDB
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                 Your personal, curated collection of movies, TV shows, and anime. Discover your next favorite.
