@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
@@ -15,13 +15,15 @@ import { cn } from '@/lib/utils';
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [isNavigating, setIsNavigating] = useState(false);
+  const [animationType, setAnimationType] = useState('');
   const router = useRouter();
 
-  const handleMovieNavigation = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleNavigation = (e: React.MouseEvent<HTMLButtonElement>, path: string, type: string) => {
     e.preventDefault();
+    setAnimationType(type);
     setIsNavigating(true);
     setTimeout(() => {
-      router.push('/movies');
+      router.push(path);
     }, 1200); // Match animation duration
   };
 
@@ -32,7 +34,10 @@ export default function Home() {
       
       {isNavigating && (
         <div className="fixed inset-0 z-[200] flex items-center justify-center bg-background/80 animate-page-fade-in">
-            <Film className="h-32 w-32 text-primary animate-reel-out" />
+            {animationType === 'movie' && <Film className="h-32 w-32 text-primary animate-reel-out" />}
+            {animationType === 'tv' && <Tv className="h-32 w-32 text-primary animate-tv-out" />}
+            {animationType === 'anime' && <Clapperboard className="h-32 w-32 text-primary animate-sword-slash-out" />}
+            {animationType === 'star' && <Star className="h-32 w-32 text-primary animate-shooting-star-out" />}
         </div>
       )}
 
@@ -83,7 +88,7 @@ export default function Home() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">Browse through a collection of cinematic masterpieces.</p>
-                    <Button onClick={handleMovieNavigation} className="mt-6">
+                    <Button onClick={(e) => handleNavigation(e, '/movies', 'movie')} className="mt-6">
                       Explore Movies
                     </Button>
                   </CardContent>
@@ -97,8 +102,8 @@ export default function Home() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">Catch up on the most binge-worthy series.</p>
-                    <Button asChild className="mt-6">
-                      <Link href="/tv-shows">Explore TV Shows</Link>
+                    <Button onClick={(e) => handleNavigation(e, '/tv-shows', 'tv')} className="mt-6">
+                      Explore TV Shows
                     </Button>
                   </CardContent>
                 </Card>
@@ -111,8 +116,8 @@ export default function Home() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">Dive into captivating animated worlds from Japan.</p>
-                    <Button asChild className="mt-6">
-                      <Link href="/anime">Explore Anime</Link>
+                     <Button onClick={(e) => handleNavigation(e, '/anime', 'anime')} className="mt-6">
+                      Explore Anime
                     </Button>
                   </CardContent>
                 </Card>
@@ -125,8 +130,8 @@ export default function Home() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">See my highest-rated picks across all categories.</p>
-                    <Button asChild className="mt-6">
-                      <Link href="/top-10">View Top 10</Link>
+                    <Button onClick={(e) => handleNavigation(e, '/top-10', 'star')} className="mt-6">
+                      View Top 10
                     </Button>
                   </CardContent>
                 </Card>
