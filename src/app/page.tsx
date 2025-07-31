@@ -12,19 +12,21 @@ export default function Home() {
         <section className="w-full py-20 md:py-32 lg:py-40">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-6 text-center">
-              <div className="w-48 h-48 md:w-64 md:h-64 relative mb-6">
-                <Image
-                  src={AvimdbLogo}
-                  alt="AVIMDB Logo"
-                  fill
-                  style={{objectFit: "contain"}}
-                  sizes="(max-width: 768px) 192px, 256px"
-                  priority
-                />
+              <div className="flex items-center justify-center gap-6 mb-6">
+                <div className="w-32 h-32 relative">
+                  <Image
+                    src={AvimdbLogo}
+                    alt="AVIMDB Logo"
+                    fill
+                    style={{objectFit: "contain"}}
+                    sizes="128px"
+                    priority
+                  />
+                </div>
+                <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
+                  AVIMDB
+                </h1>
               </div>
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
-                AVIMDB
-              </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                 👋 Hello there! I&apos;m Avinash, and this is AVIMDB, my personal vault of some of the finest (and occasionally questionable) movies, TV shows, and anime I’ve consumed over the years.
                 <br /><br />
