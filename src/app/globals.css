@@ -122,25 +122,14 @@ body {
   0% {
     transform: scale(0);
     opacity: 0;
-    filter: brightness(1);
   }
-  20% {
-    opacity: 1;
-    filter: brightness(1.5);
-  }
-  40% {
-    opacity: 0.8;
-    filter: brightness(1);
-  }
-  60% {
+  50% {
     transform: scale(1.2);
     opacity: 1;
-    filter: brightness(2);
   }
   100% {
     transform: scale(5);
     opacity: 0;
-    filter: brightness(5);
   }
 }
 
@@ -150,29 +139,26 @@ body {
     opacity: 0;
   }
   50% {
-    transform: scale(1.2) rotate(20deg);
+    transform: scale(1.2) rotate(10deg);
     opacity: 1;
   }
-  52% {
-    transform: scale(1.1) rotate(-20deg);
-  }
   100% {
-    transform: scale(5) rotate(0deg);
+    transform: scale(5) rotate(-10deg);
     opacity: 0;
   }
 }
 
 @keyframes shooting-star-out {
   0% {
-    transform: scale(0) translate(0, 0) rotate(0deg);
+    transform: scale(0.5) translate(0, 0) rotate(0deg);
     opacity: 0;
   }
   50% {
-    transform: scale(1.2) translate(-100px, 100px) rotate(45deg);
+    transform: scale(1.2) translate(-50px, 50px) rotate(45deg);
     opacity: 1;
   }
   100% {
-    transform: scale(0) translate(-200px, 200px) rotate(90deg);
+    transform: scale(0) translate(-150px, 150px) rotate(90deg);
     opacity: 0;
   }
 }
@@ -187,17 +173,17 @@ body {
 }
 
 .animate-reel-out {
-  animation: reel-out 1.2s ease-in-out forwards;
+  animation: reel-out 0.8s ease-in-out forwards;
 }
 
 .animate-tv-out {
-  animation: tv-out 1.2s ease-in-out forwards;
+  animation: tv-out 0.8s ease-in-out forwards;
 }
 
 .animate-sword-slash-out {
-  animation: sword-slash-out 1.2s ease-in-out forwards;
+  animation: sword-slash-out 0.8s ease-in-out forwards;
 }
 
 .animate-shooting-star-out {
-  animation: shooting-star-out 1.2s ease-in-out forwards;
+  animation: shooting-star-out 0.8s ease-in-out forwards;
 }
