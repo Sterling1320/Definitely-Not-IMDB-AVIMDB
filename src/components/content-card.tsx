@@ -8,9 +8,10 @@ import { ContentDialog } from './content-dialog';
 
 interface ContentCardProps {
   content: Content;
+  rank?: number;
 }
 
-export function ContentCard({ content }: ContentCardProps) {
+export function ContentCard({ content, rank }: ContentCardProps) {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   return (
@@ -19,7 +20,12 @@ export function ContentCard({ content }: ContentCardProps) {
         className="overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1"
         onClick={() => setIsDialogOpen(true)}
       >
-        <CardHeader className="p-0">
+        <CardHeader className="p-0 relative">
+          {rank && (
+            <div className="absolute top-2 left-2 z-10 bg-primary text-primary-foreground rounded-full h-8 w-8 flex items-center justify-center font-bold text-lg">
+              {rank}
+            </div>
+          )}
           <Image
             src={content.posterUrl}
             alt={`Poster for ${content.title}`}
