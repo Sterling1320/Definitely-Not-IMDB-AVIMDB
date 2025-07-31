@@ -17,6 +17,7 @@ export default function Home() {
                 👋 Hello there! I'm Avinash, and this is AVIMDB, my personal vault of some of the finest (and occasionally questionable) movies, TV shows, and anime I’ve consumed over the years.
                 <br /><br />
                 Every title here has been judged by me on factors like acting, music, plot impact, and most importantly... whether I ever felt like watching it again.
+                <br />
                 If your favorite show didn’t make the cut, don’t take it personally it just means your taste is lowkey trash :p
               </p>
             </div>
