@@ -56,7 +56,7 @@ export default function Home() {
           <section className="w-full py-20 md:py-32 lg:py-40">
             <div className="container px-4 md:px-6">
               <div className="flex flex-col items-center space-y-6 text-center">
-                <div className="flex items-center justify-center gap-6 mb-6">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-6">
                   <Link href="https://www.linkedin.com/in/avinash-praveen/" target="_blank" rel="noopener noreferrer">
                     <div className="w-64 h-64 relative">
                       <Image
