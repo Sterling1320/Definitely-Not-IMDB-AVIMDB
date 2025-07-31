@@ -54,10 +54,10 @@ export default function Home() {
           <section className="w-full pb-20 md:pb-32 lg:pb-40">
             <div className="container px-4 md:px-6">
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                <Card className="flex flex-col items-center justify-center text-center p-6 hover:shadow-primary/20 hover:shadow-lg transition-shadow duration-300">
+                <Card className="group flex flex-col items-center justify-center text-center p-6 hover:shadow-primary/20 hover:shadow-lg transition-shadow duration-300">
                   <CardHeader>
                     <div className="mx-auto bg-primary/20 p-4 rounded-full">
-                      <Film className="h-12 w-12 text-primary" />
+                      <Film className="h-12 w-12 text-primary group-hover:animate-[reel-spin_2s_linear_infinite]" />
                     </div>
                     <CardTitle className="mt-4 font-headline">Movies</CardTitle>
                   </CardHeader>

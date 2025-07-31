@@ -92,3 +92,12 @@ body {
   0%, 100% { opacity: 0; }
   20%, 80% { opacity: 1; }
 }
+
+@keyframes reel-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
