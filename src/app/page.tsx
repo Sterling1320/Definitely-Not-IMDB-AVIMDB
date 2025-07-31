@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Clapperboard, Tv, Film, Star } from 'lucide-react';
+import AvimdbLogo from './AVIMDB logo.jpg';
 
 export default function Home() {
   return (
@@ -13,10 +14,10 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-6 text-center">
               <div className="w-48 h-48 md:w-64 md:h-64 relative mb-6">
                 <Image
-                  src="https://storage.googleapis.com/monsoon-trial-test-5321/upload_50a581a9f14b653443a59a43a0100465.png"
+                  src={AvimdbLogo}
                   alt="AVIMDB Logo"
                   fill
-                  objectFit="contain"
+                  style={{objectFit: "contain"}}
                 />
               </div>
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
