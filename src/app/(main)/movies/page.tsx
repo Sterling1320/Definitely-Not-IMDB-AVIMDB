@@ -1,10 +1,8 @@
-import { contentData } from '@/lib/data';
+import { movies } from '@/lib/data/movies';
 import { ContentCard } from '@/components/content-card';
 import type { Content } from '@/types';
 
 export default function MoviesPage() {
-  const movies = contentData.filter((item) => item.type === 'Movie');
-
   return (
     <div className="container py-12">
       <h1 className="text-4xl font-bold tracking-tight font-headline mb-8">Movies</h1>

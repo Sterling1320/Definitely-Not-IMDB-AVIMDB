@@ -1,10 +1,8 @@
-import { contentData } from '@/lib/data';
+import { tvShows } from '@/lib/data/tv-shows';
 import { ContentCard } from '@/components/content-card';
 import type { Content } from '@/types';
 
 export default function TvShowsPage() {
-  const tvShows = contentData.filter((item) => item.type === 'TV Show');
-
   return (
     <div className="container py-12">
       <h1 className="text-4xl font-bold tracking-tight font-headline mb-8">TV Shows</h1>
