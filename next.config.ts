@@ -16,6 +16,22 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.tallengestore.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'f.woowoowoowoo.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.cinejosh.com',
+      },
     ],
   },
 };
