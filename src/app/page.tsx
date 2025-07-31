@@ -18,6 +18,8 @@ export default function Home() {
                   alt="AVIMDB Logo"
                   fill
                   style={{objectFit: "contain"}}
+                  sizes="(max-width: 768px) 192px, 256px"
+                  priority
                 />
               </div>
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
