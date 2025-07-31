@@ -77,7 +77,7 @@ export default function Home() {
                 <Card className="group flex flex-col items-center justify-center text-center p-6 hover:shadow-primary/20 hover:shadow-lg transition-shadow duration-300">
                   <CardHeader>
                     <div className="mx-auto bg-primary/20 p-4 rounded-full">
-                      <Film className="h-12 w-12 text-primary group-hover:animate-[reel-spin_2s_linear_infinite]" />
+                      <Film className="h-12 w-12 text-primary" />
                     </div>
                     <CardTitle className="mt-4 font-headline">Movies</CardTitle>
                   </CardHeader>
