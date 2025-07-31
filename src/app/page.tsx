@@ -115,7 +115,7 @@ export default function Home() {
           </section>
         </main>
         <footer className="flex items-center justify-center py-6 border-t">
-            <p className="text-xs text-muted-foreground">
+            <p className="text-sm text-muted-foreground">
                 AVIMDB - All rights reserved, probably.
             </p>
         </footer>
