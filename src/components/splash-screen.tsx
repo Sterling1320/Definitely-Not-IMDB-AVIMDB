@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -16,7 +17,7 @@ export function SplashScreen({ onAnimationComplete }: SplashScreenProps) {
     const finishTimer = setTimeout(() => {
       setIsFinished(true);
       onAnimationComplete();
-    }, 3000); // Increased duration to 3 seconds
+    }, 2000); // Reduced duration to 2 seconds
 
     return () => {
       clearTimeout(startTimer);
@@ -32,14 +33,14 @@ export function SplashScreen({ onAnimationComplete }: SplashScreenProps) {
     <div
       className={cn(
         'fixed inset-0 z-[100] flex flex-col items-center justify-center bg-black transition-opacity duration-1000',
-        isAnimating && 'animate-[splash-fade-out_3s_ease-in-out_forwards]'
+        isAnimating && 'animate-[splash-fade-out_2s_ease-in-out_forwards]'
       )}
     >
         <div className="relative w-64 md:w-80">
             <div
                 className={cn(
                     'w-full h-10 bg-white origin-bottom-left',
-                    isAnimating && 'animate-[clapper-top-open_1.5s_ease-in-out_forwards]'
+                    isAnimating && 'animate-[clapper-top-open_1s_ease-in-out_forwards]'
                 )}
             >
                 <div className="h-full w-full bg-black" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 15% 100%)' }}>
@@ -57,7 +58,7 @@ export function SplashScreen({ onAnimationComplete }: SplashScreenProps) {
                 <div 
                     className={cn(
                         'text-center transition-opacity duration-500',
-                        isAnimating && 'animate-[text-fade-in-out_3s_ease-in-out_forwards]'
+                        isAnimating && 'animate-[text-fade-in-out_2s_ease-in-out_forwards]'
                     )}
                 >
                     <h1 className="text-3xl md:text-4xl font-bold font-headline">Sterling</h1>
