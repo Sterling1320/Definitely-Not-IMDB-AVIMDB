@@ -13,18 +13,18 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-6 text-center">
               <div className="flex items-center justify-center gap-6 mb-6">
-                <div className="w-32 h-32 relative">
+                <div className="w-64 h-64 relative">
                   <Image
                     src={AvimdbLogo}
                     alt="AVIMDB Logo"
                     fill
                     style={{objectFit: "contain"}}
-                    sizes="128px"
+                    sizes="256px"
                     priority
                   />
                 </div>
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
-                  AVIMDB
+                  🅐🅥🅘🅜🅓🅑
                 </h1>
               </div>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
