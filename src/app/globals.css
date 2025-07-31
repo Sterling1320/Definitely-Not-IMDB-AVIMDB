@@ -70,3 +70,25 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes clapper-top-open {
+  0% { transform: rotate(0deg); }
+  30%, 50% { transform: rotate(-15deg); }
+  100% { transform: rotate(-15deg); }
+}
+
+@keyframes clapper-bottom-open {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes splash-fade-out {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes text-fade-in-out {
+  0%, 100% { opacity: 0; }
+  20%, 80% { opacity: 1; }
+}
