@@ -57,22 +57,33 @@ export default function Home() {
             <div className="container px-4 md:px-6">
               <div className="flex flex-col items-center space-y-6 text-center">
                 <div className="flex items-center justify-center gap-6 mb-6">
-                  <div className="w-64 h-64 relative">
-                    <Image
-                      src={AvimdbLogo}
-                      alt="AVIMDB Logo"
-                      fill
-                      style={{objectFit: "contain"}}
-                      sizes="256px"
-                      priority
-                    />
-                  </div>
+                  <Link href="https://www.linkedin.com/in/avinash-praveen/" target="_blank" rel="noopener noreferrer">
+                    <div className="w-64 h-64 relative">
+                      <Image
+                        src={AvimdbLogo}
+                        alt="AVIMDB Logo"
+                        fill
+                        style={{objectFit: "contain"}}
+                        sizes="256px"
+                        priority
+                      />
+                    </div>
+                  </Link>
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
                     🅐🅥🅘🅜🅓🅑
                   </h1>
                 </div>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  👋 Hello there! I&apos;m Avinash, and this is AVIMDB, my personal vault of some of the finest (and occasionally questionable) movies, TV shows, and anime I’ve consumed over the years.
+                  👋 Hello there! I&apos;m{' '}
+                  <Link
+                    href="https://www.linkedin.com/in/avinash-praveen/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-primary"
+                  >
+                    Avinash
+                  </Link>
+                  , and this is AVIMDB, my personal vault of some of the finest (and occasionally questionable) movies, TV shows, and anime I’ve consumed over the years.
                   <br /><br />
                   Every title here has been judged by me on factors like acting, music, plot impact, and most importantly... whether I ever felt like watching it again.
                   <br />
