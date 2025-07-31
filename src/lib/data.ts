@@ -10,6 +10,7 @@ export const contentData: Content[] = [
     shortDescription: 'A thief who steals corporate secrets through use of dream-sharing technology.',
     synopsis: 'A thief who enters the dreams of others to steal their secrets gets a final chance at redemption which involves executing a dangerous plan.',
     personalReview: 'A mind-bending thriller that gets better with every watch. The visuals are stunning and the concept is incredibly original. A modern classic.',
+    rating: 9.8,
     details: {
       genre: ['Sci-Fi', 'Thriller', 'Action'],
       year: 2010,
@@ -26,6 +27,7 @@ export const contentData: Content[] = [
     shortDescription: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.',
     synopsis: 'All unemployed, Ki-taek\'s family takes a peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.',
     personalReview: 'A masterpiece of storytelling. It perfectly blends dark comedy, drama, and thriller elements to create a powerful commentary on class struggle.',
+    rating: 9.9,
     details: {
       genre: ['Thriller', 'Drama', 'Comedy'],
       year: 2019,
@@ -42,6 +44,7 @@ export const contentData: Content[] = [
     shortDescription: 'A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine.',
     synopsis: 'A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family\'s future.',
     personalReview: 'One of the greatest TV shows ever made. The character development of Walter White is phenomenal, and the plot is gripping from start to finish.',
+    rating: 10,
     details: {
       genre: ['Crime', 'Drama', 'Thriller'],
       year: 2008,
@@ -58,6 +61,7 @@ export const contentData: Content[] = [
     shortDescription: 'A dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London.',
     synopsis: 'A comedic and poignant look at a dry-witted, grief-riddled woman as she navigates life and love in London.',
     personalReview: 'Painfully funny and deeply moving. Phoebe Waller-Bridge is a genius. The fourth-wall breaks are used to incredible effect.',
+    rating: 9.5,
     details: {
       genre: ['Comedy', 'Drama'],
       year: 2016,
@@ -74,6 +78,7 @@ export const contentData: Content[] = [
     shortDescription: 'After his hometown is destroyed, Eren Yeager vows to cleanse the earth of the giant humanoid Titans.',
     synopsis: 'In a world where humanity resides within enormous walled cities to protect themselves from gigantic man-eating humanoids known as Titans, a young boy, Eren Yeager, vows to exterminate the Titans after they bring about the destruction of his hometown and the death of his mother.',
     personalReview: 'An epic in every sense of the word. The action is breathtaking, the story is complex and full of twists, and the themes are dark and mature. A must-watch.',
+    rating: 9.7,
     details: {
       genre: ['Action', 'Dark Fantasy', 'Post-apocalyptic'],
       year: 2013,
@@ -90,6 +95,7 @@ export const contentData: Content[] = [
     shortDescription: 'A group of friends have customized their microwave into a device that can send text messages to the past.',
     synopsis: 'A self-proclaimed mad scientist, Rintaro Okabe, accidentally discovers a method of sending messages to the past, leading to a series of unforeseen and dangerous consequences.',
     personalReview: 'A slow burn that builds into one of the most brilliant and emotionally resonant time travel stories ever told. The characters are unforgettable.',
+    rating: 9.6,
     details: {
       genre: ['Sci-Fi', 'Thriller', 'Psychological'],
       year: 2011,
@@ -106,6 +112,7 @@ export const contentData: Content[] = [
     shortDescription: 'A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.',
     synopsis: 'A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.',
     personalReview: 'The ultimate comfort show. Hilarious, heartwarming, and endlessly rewatchable. The characters feel like family.',
+    rating: 8.5,
     details: {
       genre: ['Comedy', 'Mockumentary'],
       year: 2005,
@@ -122,6 +129,7 @@ export const contentData: Content[] = [
     shortDescription: 'A young girl wanders into a world of gods, witches, and spirits, and where humans are changed into beasts.',
     synopsis: 'During her family\'s move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.',
     personalReview: 'A visually breathtaking and enchanting film. Studio Ghibli at its absolute best. A magical experience for all ages.',
+    rating: 9.4,
     details: {
       genre: ['Animation', 'Adventure', 'Family'],
       year: 2001,

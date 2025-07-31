@@ -7,6 +7,7 @@ export type Content = {
   shortDescription: string;
   synopsis: string;
   personalReview: string;
+  rating?: number;
   details: {
     genre: string[];
     year: number;

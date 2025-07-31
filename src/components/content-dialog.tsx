@@ -11,7 +11,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Image from 'next/image';
 import type { Content } from '@/types';
-import { ExternalLink, Calendar, Film, Tv } from 'lucide-react';
+import { ExternalLink, Calendar, Film, Tv, Star } from 'lucide-react';
 
 interface ContentDialogProps {
   content: Content;
@@ -47,6 +47,7 @@ export function ContentDialog({ content, isOpen, onOpenChange }: ContentDialogPr
                  <div className="flex items-center gap-2"><Calendar size={16} /> <span>{content.details.year}</span></div>
                  {content.details.duration && <div className="flex items-center gap-2"><Film size={16} /> <span>{content.details.duration}</span></div>}
                  {content.details.episodes && <div className="flex items-center gap-2"><Tv size={16} /> <span>{content.details.episodes} episodes</span></div>}
+                 {content.rating && <div className="flex items-center gap-1"><Star size={16} className="text-primary" /> <span>{content.rating}/10</span></div>}
               </div>
 
               <DialogDescription className="text-base mb-6">{content.synopsis}</DialogDescription>
