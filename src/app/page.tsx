@@ -15,7 +15,7 @@ export default function Home() {
                 <Image
                   src="https://storage.googleapis.com/monsoon-trial-test-5321/upload_50a581a9f14b653443a59a43a0100465.png"
                   alt="AVIMDB Logo"
-                  layout="fill"
+                  fill
                   objectFit="contain"
                 />
               </div>
