@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Clapperboard, Tv, Film, Star } from 'lucide-react';
@@ -9,7 +10,15 @@ export default function Home() {
       <main className="flex-1">
         <section className="w-full py-20 md:py-32 lg:py-40">
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center space-y-4 text-center">
+            <div className="flex flex-col items-center space-y-6 text-center">
+              <div className="w-48 h-48 md:w-64 md:h-64 relative mb-6">
+                <Image
+                  src="https://storage.googleapis.com/monsoon-trial-test-5321/upload_50a581a9f14b653443a59a43a0100465.png"
+                  alt="AVIMDB Logo"
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
                 AVIMDB
               </h1>

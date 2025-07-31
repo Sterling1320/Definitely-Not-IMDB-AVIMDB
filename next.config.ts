@@ -32,6 +32,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'www.cinejosh.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'storage.googleapis.com',
+      }
     ],
   },
 };
