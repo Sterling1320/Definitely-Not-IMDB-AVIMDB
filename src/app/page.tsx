@@ -70,7 +70,7 @@ export default function Home() {
                   <div className="mx-auto bg-primary/20 p-4 rounded-full">
                     <Star className="h-12 w-12 text-primary" />
                   </div>
-                  <CardTitle className="mt-4 font-headline">My Top 10</CardTitle>
+                  <CardTitle className="mt-4 font-headline">My Top 10 Overall</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">See my highest-rated picks across all categories.</p>
