@@ -26,7 +26,7 @@ export default function Home() {
     setIsNavigating(true);
     setTimeout(() => {
       router.push(path);
-    }, 800); // Match animation duration
+    }, 500); // Match animation duration
   };
 
 
