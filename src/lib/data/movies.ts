@@ -483,7 +483,7 @@ export const movies: Content[] = [
     id: 43,
     title: 'Jolly LLB',
     type: 'Movie',
-    posterUrl: 'https://s.pv-target-images.com/7924c79e97430a1d7875b2d8f8279a3e83459c03f0c9d9e2acbcc3476b8a6c81.jpg',
+    posterUrl: 'https://m.media-amazon.com/images/S/pv-target-images/7924c79e97430a1d7875b2d8f8279a3e83459c03f0c9d9e2acbcc3476b8a6c81.jpg',
     aiHint: 'lawyer courtroom',
     shortDescription: 'A small-time lawyer takes on a high-profile case against a powerful and corrupt individual.',
     synopsis: 'Jagdish "Jolly" Tyagi, a struggling lawyer, moves to the city to make a name for himself. He takes on a challenging and controversial hit-and-run case, fighting for justice against all odds in a corrupt system.',
