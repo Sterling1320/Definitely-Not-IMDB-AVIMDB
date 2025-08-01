@@ -80,6 +80,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'i.etsystatic.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.hollywoodreporter.com',
+      },
     ],
   },
 };
