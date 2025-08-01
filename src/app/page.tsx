@@ -78,7 +78,7 @@ export default function Home() {
                     🅐🅥🅘🅜🅓🅑
                   </h1>
                 </div>
-                 <div className="mx-auto max-w-[700px] text-primary md:text-xl text-justify">
+                 <div className="mx-auto max-w-[700px] text-primary md:text-xl text-justify font-bold">
                   <Typewriter 
                     text={descriptionText} 
                     linkText={linkText} 
