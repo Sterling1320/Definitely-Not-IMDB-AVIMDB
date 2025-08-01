@@ -16,7 +16,7 @@ export const anime: Content[] = [
       year: 2013,
       episodes: 88,
     },
-    externalLink: 'https://www.imdb.com/title/tt2560140/',
+    externalLinks: [{ label: 'Watch Now', url: 'https://www.imdb.com/title/tt2560140/' }],
   },
   {
     id: 6,
@@ -33,7 +33,7 @@ export const anime: Content[] = [
       year: 2011,
       episodes: 24,
     },
-    externalLink: 'https://www.imdb.com/title/tt1910272/',
+    externalLinks: [{ label: 'Watch Now', url: 'https://www.imdb.com/title/tt1910272/' }],
   },
   {
     id: 8,
@@ -50,6 +50,6 @@ export const anime: Content[] = [
       year: 2001,
       duration: '2h 5m'
     },
-    externalLink: 'https://www.imdb.com/title/tt0245429/',
+    externalLinks: [{ label: 'Watch Now', url: 'https://www.imdb.com/title/tt0245429/' }],
   }
 ];

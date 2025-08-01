@@ -14,5 +14,5 @@ export type Content = {
     duration?: string;
     episodes?: number;
   };
-  externalLink: string;
+  externalLinks: { label: string; url: string }[];
 };

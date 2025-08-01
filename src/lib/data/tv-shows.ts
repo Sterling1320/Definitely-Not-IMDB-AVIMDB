@@ -16,7 +16,7 @@ export const tvShows: Content[] = [
       year: 2008,
       episodes: 62,
     },
-    externalLink: 'https://www.imdb.com/title/tt0903747/',
+    externalLinks: [{ label: 'Watch Now', url: 'https://www.imdb.com/title/tt0903747/' }],
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const tvShows: Content[] = [
       year: 2016,
       episodes: 12,
     },
-    externalLink: 'https://www.imdb.com/title/tt5687612/',
+    externalLinks: [{ label: 'Watch Now', url: 'https://www.imdb.com/title/tt5687612/' }],
   },
   {
     id: 7,
@@ -50,6 +50,6 @@ export const tvShows: Content[] = [
       year: 2005,
       episodes: 201,
     },
-    externalLink: 'https://www.imdb.com/title/tt0386676/',
+    externalLinks: [{ label: 'Watch Now', url: 'https://www.imdb.com/title/tt0386676/' }],
   },
 ];

@@ -35,7 +35,27 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'storage.googleapis.com',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'images-cdn.ubuy.co.in',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.squarespace-cdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.universalpictures.co.uk',
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.tmdb.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'encrypted-tbn0.gstatic.com',
+      },
     ],
   },
 };
