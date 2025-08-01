@@ -10,6 +10,7 @@ import { Clapperboard, Tv, Film, Star } from 'lucide-react';
 import AvimdbLogo from './AVIMDB logo.png';
 import { SplashScreen } from '@/components/splash-screen';
 import { cn } from '@/lib/utils';
+import { Typewriter } from '@/components/typewriter';
 
 
 export default function Home() {
@@ -28,6 +29,10 @@ export default function Home() {
   };
 
 
+  const descriptionText = "👋 𝙷𝚎𝚢 𝚝𝚑𝚎𝚛𝚎! 𝙸'𝚖 𝙰𝚟𝚒𝚗𝚊𝚜𝚑, 𝚊𝚗𝚍 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝙰𝚅𝙸𝙼𝙳𝙱 𝚖𝚢 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕 𝚟𝚊𝚞𝚕𝚝 𝚘𝚏 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚒𝚌 𝚝𝚛𝚎𝚊𝚜𝚞𝚛𝚎𝚜 (𝚊𝚗𝚍 𝚝𝚑𝚎 𝚘𝚌𝚌𝚊𝚜𝚒𝚘𝚗𝚊𝚕 𝚐𝚞𝚒𝚕𝚝𝚢 𝚙𝚕𝚎𝚊𝚜𝚞𝚛𝚎) 𝚜𝚙𝚊𝚗𝚗𝚒𝚗𝚐 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚃𝚅 𝚜𝚑𝚘𝚠𝚜, 𝚊𝚗𝚍 𝚊𝚗𝚒𝚖𝚎 𝙸'𝚟𝚎 𝚋𝚒𝚗𝚐𝚎𝚍 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚢𝚎𝚊𝚛𝚜.  𝙴𝚊𝚌𝚑 𝚎𝚗𝚝𝚛𝚢 𝚒𝚜 𝚛𝚊𝚗𝚔𝚎𝚍 𝚋𝚊𝚜𝚎𝚍 𝚘𝚗 𝚊𝚌𝚝𝚒𝚗𝚐, 𝚖𝚞𝚜𝚒𝚌, 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢 𝚊𝚗𝚍 𝚛𝚎𝚠𝚊𝚝𝚌𝚑𝚊𝚋𝚒𝚕𝚒𝚝𝚢. 𝙰𝚗𝚍 𝚒𝚏 𝚢𝚘𝚞𝚛 𝚏𝚊𝚟𝚘𝚛𝚒𝚝𝚎 𝚍𝚒𝚍𝚗't 𝚖𝚊𝚔𝚎 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝, 𝚓𝚞𝚜𝚝 𝚔𝚗𝚘𝚠 𝚢𝚘𝚞 𝚊𝚛𝚎𝚗't 𝚌𝚞𝚕𝚝𝚞𝚛𝚎𝚍 𝚎𝚗𝚘𝚞𝚐𝚑.";
+  const linkText = "𝙰𝚟𝚒𝚗𝚊𝚜𝚑";
+  const linkHref = "https://www.linkedin.com/in/avinash-praveen/";
+  
   return (
     <>
       {loading && <SplashScreen onAnimationComplete={() => setLoading(false)} />}
@@ -73,18 +78,14 @@ export default function Home() {
                     🅐🅥🅘🅜🅓🅑
                   </h1>
                 </div>
-                <p className="mx-auto max-w-[700px] text-primary md:text-xl text-justify">
-                  👋 𝙷𝚎𝚢 𝚝𝚑𝚎𝚛𝚎! 𝙸'𝚖{' '}
-                  <Link
-                    href="https://www.linkedin.com/in/avinash-praveen/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline hover:text-primary-foreground"
-                  >
-                    𝙰𝚟𝚒𝚗𝚊𝚜𝚑
-                  </Link>
-                  , 𝚊𝚗𝚍 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝙰𝚅𝙸𝙼𝙳𝙱 𝚖𝚢 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕 𝚟𝚊𝚞𝚕𝚝 𝚘𝚏 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚒𝚌 𝚝𝚛𝚎𝚊𝚜𝚞𝚛𝚎𝚜 (𝚊𝚗𝚍 𝚝𝚑𝚎 𝚘𝚌𝚌𝚊𝚜𝚒𝚘𝚗𝚊𝚕 𝚐𝚞𝚒𝚕𝚝𝚢 𝚙𝚕𝚎𝚊𝚜𝚞𝚛𝚎) 𝚜𝚙𝚊𝚗𝚗𝚒𝚗𝚐 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚃𝚅 𝚜𝚑𝚘𝚠𝚜, 𝚊𝚗𝚍 𝚊𝚗𝚒𝚖𝚎 𝙸'𝚟𝚎 𝚋𝚒𝚗𝚐𝚎𝚍 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚢𝚎𝚊𝚛𝚜.  𝙴𝚊𝚌𝚑 𝚎𝚗𝚝𝚛𝚢 𝚒𝚜 𝚛𝚊𝚗𝚔𝚎𝚍 𝚋𝚊𝚜𝚎𝚍 𝚘𝚗 𝚊𝚌𝚝𝚒𝚗𝚐, 𝚖𝚞𝚜𝚒𝚌, 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢 𝚊𝚗𝚍 𝚛𝚎𝚠𝚊𝚝𝚌𝚑𝚊𝚋𝚒𝚕𝚒𝚝𝚢. 𝙰𝚗𝚍 𝚒𝚏 𝚢𝚘𝚞𝚛 𝚏𝚊𝚟𝚘𝚛𝚒𝚝𝚎 𝚍𝚒𝚍𝚗'𝚝 𝚖𝚊𝚔𝚎 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝, 𝚓𝚞𝚜𝚝 𝚔𝚗𝚘𝚠 𝚢𝚘𝚞 𝚊𝚛𝚎𝚗'𝚝 𝚌𝚞𝚕𝚝𝚞𝚛𝚎𝚍 𝚎𝚗𝚘𝚞𝚐𝚑.
-                </p>
+                 <div className="mx-auto max-w-[700px] text-primary md:text-xl text-justify">
+                  <Typewriter 
+                    text={descriptionText} 
+                    linkText={linkText} 
+                    linkHref={linkHref}
+                    linkClassName="underline hover:text-primary-foreground" 
+                  />
+                </div>
               </div>
             </div>
           </section>
@@ -102,7 +103,7 @@ export default function Home() {
                   <CardContent>
                     <p className="text-muted-foreground">Browse through a collection of cinematic masterpieces.</p>
                     <Button onClick={(e) => handleNavigation(e, '/movies', 'movie')} className="mt-6">
-                      Explore Movies
+                      View List
                     </Button>
                   </CardContent>
                 </Card>
@@ -116,7 +117,7 @@ export default function Home() {
                   <CardContent>
                     <p className="text-muted-foreground">Catch up on the most binge-worthy series.</p>
                     <Button onClick={(e) => handleNavigation(e, '/tv-shows', 'tv')} className="mt-6">
-                      Explore TV Shows
+                      View List
                     </Button>
                   </CardContent>
                 </Card>
@@ -130,7 +131,7 @@ export default function Home() {
                   <CardContent>
                     <p className="text-muted-foreground">Dive into captivating animated worlds from Japan.</p>
                      <Button onClick={(e) => handleNavigation(e, '/anime', 'anime')} className="mt-6">
-                      Explore Anime
+                      View List
                     </Button>
                   </CardContent>
                 </Card>

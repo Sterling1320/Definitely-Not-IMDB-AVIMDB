@@ -188,3 +188,9 @@ body {
 .animate-rotating-star-out {
   animation: rotating-star-out 0.8s ease-in-out forwards;
 }
+
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
