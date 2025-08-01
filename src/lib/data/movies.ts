@@ -398,7 +398,7 @@ export const movies: Content[] = [
     id: 32,
     title: 'Ford v Ferrari',
     type: 'Movie',
-    posterUrl: 'https://m.media-amazon.com/images/M/MV5BYzcyZDNlNDYtNDE4Yy00YjAxLTg4YjEtYzA2ZjI2MGMxMDIzXkEyXkFqcGc@._V1_.jpg',
+    posterUrl: 'https://image.tmdb.org/t/p/original/yCOoAfw9GwBqE9zjn8EzeIdAfJO.jpg',
     aiHint: 'race cars',
     shortDescription: 'American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.',
     synopsis: 'The remarkable true story of the visionary American car designer Carroll Shelby and the fearless British-born driver Ken Miles, who together battled corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.',
@@ -554,7 +554,7 @@ export const movies: Content[] = [
     posterUrl: 'https://f.woowoowoowoo.net/resize/186x286/d0/69/d069621502c343d237c81762972333ba/d069621502c343d237c81762972333ba.jpg',
     aiHint: 'couple wedding',
     shortDescription: 'A pushy boss forces her young assistant to marry her in order to keep her visa status in the U.S. and avoid deportation to Canada.',
-    synopsis: 'When high-powered book editor Margaret faces deportation to her native Canada, she cooks up a scheme to marry her long-suffering assistant, Andrew, to stay in the U.S. He agrees, but with a few conditions of his own. The unlikely couple heads to Alaska to meet his quirky family, and the "bride-to-be" finds herself in a series of comical predicaments.',
+    synopsis: 'When high-powered book editor Margaret faces deportation to her native Canada, she cooks up a scheme to marry her long-suffering assistant, Andrew, to stay in the U.S. He agrees, but with a few conditions of his own. The unlikely couple heads to Alaska to meet his quirky family, and the "bride-to-be" find herself in a series of comical predicaments.',
     personalReview: 'A hilarious rom-com with a lot of heart. Sandra Bullock and Ryan Reynolds have amazing chemistry. Betty White steals every scene she\'s in. A feel-good movie that always puts a smile on my face.',
     rating: 8.4,
     details: {
