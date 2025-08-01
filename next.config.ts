@@ -84,6 +84,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'www.hollywoodreporter.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images-na.ssl-images-amazon.com',
+      },
+       {
+        protocol: 'https',
+        hostname: 's.pv-target-images.com',
+      },
     ],
   },
 };
