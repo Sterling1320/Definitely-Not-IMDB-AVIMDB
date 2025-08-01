@@ -59,7 +59,7 @@ export default function Home() {
         isNavigating && 'animate-page-fade-out'
       )}>
         <main className="flex-1">
-          <section className="w-full py-20 md:py-32 lg:py-40 flex justify-center">
+          <section className="w-full py-20 md:py-32 lg:py-40">
             <div className="container px-4 md:px-6">
               <div className="flex flex-col items-center space-y-6">
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-6">
