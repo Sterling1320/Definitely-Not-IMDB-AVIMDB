@@ -5,7 +5,7 @@ import type { Content } from '@/types';
 
 export default function MoviesPage() {
   return (
-    <div className="container py-12 flex flex-col items-center">
+    <div className="container py-12">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold tracking-tight font-headline">
           𝔾𝕣𝕖𝕒𝕥𝕖𝕤𝕥 𝕄𝕠𝕧𝕚𝕖𝕤 𝕠𝕗 𝔸𝕝𝕝 𝕋𝕚𝕞𝕖 (𝕊𝕠 𝔽𝕒𝕣.....)
