@@ -64,6 +64,22 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'www.acmodasi.in',
       },
+      {
+        protocol: 'https',
+        hostname: 'media-cache.cinematerial.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'posterspy.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'a.ltrbxd.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.etsystatic.com',
+      },
     ],
   },
 };
