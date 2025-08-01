@@ -59,7 +59,7 @@ export default function Home() {
         isNavigating && 'animate-page-fade-out'
       )}>
         <main className="flex-1">
-          <section className="w-full pt-12 md:pt-20 lg:pt-24 pb-20 md:pb-32 lg:pb-40">
+          <section className="w-full pt-8 md:pt-12 lg:pt-16 pb-12 md:pb-20 lg:pb-28">
             <div className="container px-4 md:px-6">
               <div className="text-center">
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-6">
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="w-full pb-20 md:pb-32 lg:pb-40 flex justify-center">
+          <section className="w-full pb-20 md:pb-32 lg:pb-40">
             <div className="container px-4 md:px-6">
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 <Card className="group flex flex-col items-center justify-center text-center p-6 hover:shadow-primary/20 hover:shadow-lg transition-shadow duration-300">
