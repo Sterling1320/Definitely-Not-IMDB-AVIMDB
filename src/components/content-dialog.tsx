@@ -66,7 +66,7 @@ export function ContentDialog({ content, isOpen, onOpenChange }: ContentDialogPr
             </div>
 
             <div className="flex flex-wrap gap-2 mt-6">
-              {content.externalLinks.map((link) => (
+              {content.externalLinks?.map((link) => (
                 <Button key={link.url} asChild className="w-full sm:w-auto">
                   <a href={link.url} target="_blank" rel="noopener noreferrer">
                     {link.label} <ExternalLink className="ml-2 h-4 w-4" />
