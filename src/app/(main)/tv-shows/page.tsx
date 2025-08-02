@@ -6,11 +6,13 @@ import type { Content } from '@/types';
 export default function TvShowsPage() {
   return (
     <div className="container py-12">
-      <div className="mb-8 flex flex-col items-center">
-        <h1 className="text-4xl font-bold tracking-tight font-headline">𝔹𝕚𝕟𝕘𝕖 𝕎𝕠𝕣𝕥𝕙𝕪 𝕋𝕍 𝕊𝕙𝕠𝕨𝕤</h1>
-        <p className="text-muted-foreground text-sm mt-2 self-end">
-          in my opinion
-        </p>
+      <div className="mb-8 flex justify-center">
+        <div className="flex flex-col">
+          <h1 className="text-4xl font-bold tracking-tight font-headline text-center">𝔹𝕚𝕟𝕘𝕖 𝕎𝕠𝕣𝕥𝕙𝕪 𝕋𝕍 𝕊𝕙𝕠𝕨𝕤</h1>
+          <p className="text-muted-foreground text-sm mt-2 self-end">
+            in my opinion
+          </p>
+        </div>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
         {tvShows.map((show: Content, index: number) => (
