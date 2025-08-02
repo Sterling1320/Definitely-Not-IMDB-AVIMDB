@@ -23,7 +23,7 @@ export const movies: Content[] = [
     id: 76,
     title: 'Nolan Batman Trilogy',
     type: 'Movie',
-    posterUrl: 'https://m.media-amazon.com/images/I/81R6HWrmMFL.jpg',
+    posterUrl: '/batman trilogy.jpg',
     aiHint: 'batman trilogy',
     shortDescription: 'The epic saga of Bruce Wayne\'s journey from a vengeful vigilante to Gotham\'s legendary protector, the Batman, as he faces iconic villains.',
     synopsis: 'This iconic trilogy redefines the superhero genre with a dark and realistic take on the Batman mythos. It follows Bruce Wayne from his origins and training in "Batman Begins," his chaotic battle against the anarchistic Joker in the masterpiece "The Dark Knight," to his ultimate confrontation with the formidable Bane in "The Dark Knight Rises." It is a sweeping story of heroism, sacrifice, and the enduring symbol of hope that Batman becomes for Gotham City.',
