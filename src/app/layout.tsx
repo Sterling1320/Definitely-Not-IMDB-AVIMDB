@@ -1,6 +1,9 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
+import { VantaBackground } from '@/components/vanta-background';
+import Script from 'next/script';
+
 
 export const metadata: Metadata = {
   title: 'Definitely Not IMDB (AVIMDB)',
@@ -20,8 +23,11 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"></link>
       </head>
       <body className="font-body antialiased">
+        <VantaBackground />
         {children}
         <Toaster />
+        <Script src="/p5.min.js" strategy="beforeInteractive" />
+        <Script src="/vanta.trunk.min.js" strategy="beforeInteractive" />
       </body>
     </html>
   );
