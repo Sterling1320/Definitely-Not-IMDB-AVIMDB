@@ -104,6 +104,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'alternativemovieposters.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.marvel.com',
       }
     ],
   },
