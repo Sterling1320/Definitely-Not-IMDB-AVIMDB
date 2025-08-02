@@ -1,3 +1,4 @@
+
 'use client';
 
 import { Header } from '@/components/header';
@@ -28,7 +29,7 @@ export default function MainLayout({
             {animationType === 'star' && <Star className="h-32 w-32 text-primary animate-rotating-star-out" />}
         </div>
       )}
-      <div className={cn(isNavigating && 'animate-page-fade-out')}>
+      <div className={cn(isNavigating ? 'animate-page-fade-out' : 'animate-page-fade-in')}>
         <Header />
         <main className="flex-1">
           <div className="flex justify-center">

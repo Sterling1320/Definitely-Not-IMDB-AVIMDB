@@ -44,7 +44,7 @@ export default function Home() {
       <div className={cn(
         "flex flex-col min-h-screen bg-transparent text-foreground transition-opacity duration-500",
         loading ? "opacity-0" : "opacity-100",
-        isNavigating && 'animate-page-fade-out'
+        isNavigating ? 'animate-page-fade-out' : 'animate-page-fade-in'
       )}>
         <main className="flex-1">
           <section className="w-full pt-8 md:pt-12 lg:pt-16 pb-12 md:pb-20 lg:pb-28">
