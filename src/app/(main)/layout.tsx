@@ -16,7 +16,7 @@ export default function MainLayout({
   return (
     <div className="flex min-h-screen flex-col">
       {isNavigating && (
-        <div className="fixed inset-0 z-[200] flex items-center justify-center bg-background/80 animate-page-fade-in">
+        <div className="fixed inset-0 z-[200] flex items-center justify-center bg-black animate-page-fade-in">
             {animationType === 'movie' && <Film className="h-32 w-32 text-primary animate-reel-out" />}
             {animationType === 'tv' && <Tv className="h-32 w-32 text-primary animate-tv-out" />}
             {animationType === 'anime' && (
