@@ -331,23 +331,6 @@ export const movies: Content[] = [
     externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/movie/good-will-hunting-18982' }],
   },
   {
-    id: 28,
-    title: 'Sam Bahadur',
-    type: 'Movie',
-    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMDVkMjZlMGEtMjZlOS00MzQ3LThhOTUtYjY4YTE2OTZiMjBjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
-    aiHint: 'indian soldier',
-    shortDescription: 'The life of Sam Manekshaw, who was the Chief of the Army Staff of the Indian Army during the Indo-Pakistani War of 1971.',
-    synopsis: 'This biographical drama follows the life of the legendary Field Marshal Sam Manekshaw, from his early days in the army to his pivotal role in the 1971 Indo-Pakistani War that led to the creation of Bangladesh. It explores his courage, leadership, and unwavering patriotism.',
-    personalReview: 'A powerful and inspiring biopic. Vicky Kaushal delivers a phenomenal performance, capturing the charisma and spirit of Sam Manekshaw perfectly.',
-    rating: 9.0,
-    details: {
-      genre: ['Biography', 'Drama', 'War'],
-      year: 2023,
-      duration: '2h 30m',
-    },
-    externalLinks: [{ label: 'Watch Now', url: 'https://archive.org/details/sam.-bahadur.-2023.1080p' }],
-  },
-  {
     id: 78,
     title: 'Kingsman Series',
     type: 'Movie',

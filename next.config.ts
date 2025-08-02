@@ -112,6 +112,14 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'postercinema.eu',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.posteritati.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'wallpapers.com',
       }
     ],
   },
