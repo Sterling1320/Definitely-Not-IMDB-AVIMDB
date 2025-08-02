@@ -30,7 +30,7 @@ export default function Home() {
   };
 
 
-  const descriptionText = "👋 𝙷𝚎𝚢 𝚝𝚑𝚎𝚛𝚎! 𝙸'𝚖 𝙰𝚟𝚒𝚗𝚊𝚜𝚑, 𝚊𝚗𝚍 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝙰𝚅𝙸𝙼𝙳𝙱 𝚖𝚢 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕 𝚟𝚊𝚞𝚕𝚝 𝚘𝚏 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚒𝚌 𝚝𝚛𝚎𝚊𝚜𝚞𝚛𝚎𝚜 (𝚊𝚗𝚍 𝚝𝚑𝚎 𝚘𝚌𝚌𝚊𝚜𝚒𝚘𝚗𝚊𝚕 𝚐𝚞𝚒𝚕𝚝𝚢 𝚙𝚕𝚎𝚊𝚜𝚞𝚛𝚎) 𝚜𝚙𝚊𝚗𝚗𝚒𝚗𝚐 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚃𝚅 𝚜𝚑𝚘𝚠𝚜, 𝚊𝚗𝚍 𝚊𝚗𝚒𝚖𝚎 𝙸'𝚟𝚎 𝚋𝚒𝚗𝚐𝚎𝚍 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚢𝚎𝚊𝚛𝚜.  𝙴𝚊𝚌𝚑 𝚎𝚗𝚝𝚛𝚢 𝚒𝚜 𝚛𝚊𝚗𝚔𝚎𝚍 𝚋𝚊𝚜𝚎𝚍 𝚘𝚗 𝚊𝚌𝚝𝚒𝚗𝚐, 𝚖𝚞𝚜𝚒𝚌, 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢 𝚊𝚗𝚍 𝚛𝚎𝚠𝚊𝚝𝚌𝚑𝚊𝚋𝚒𝚕𝚒𝚝𝚢. 𝙰𝚗𝚍 𝚒𝚏 𝚢𝚘𝚞𝚛 𝚏𝚊𝚟𝚘𝚛𝚒𝚝𝚎 𝚍𝚒𝚍𝚗't 𝚖𝚊𝚔𝚎 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝, 𝙸𝚝'𝚜 𝚋𝚎𝚌𝚊𝚞𝚜𝚎 𝚢𝚘𝚞𝚛 𝚝𝚊𝚜𝚝𝚎 𝚒𝚜 𝚜𝚑𝚒𝚝𝚎 :𝚙, 𝙴𝚗𝚓𝚘𝚢 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝.";
+  const descriptionText = "𝙷𝚎𝚕𝚕𝚘 𝚃𝚑𝚎𝚛𝚎! 𝙸'𝚖 𝙰𝚟𝚒𝚗𝚊𝚜𝚑 𝚊𝚗𝚍 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 '𝙰𝚅𝙸𝙼𝙳𝙱' — 𝚖𝚢 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕 𝚟𝚊𝚞𝚕𝚝 𝚘𝚏 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚒𝚌 𝚝𝚛𝚎𝚊𝚜𝚞𝚛𝚎𝚜 (𝚊𝚗𝚍 𝚝𝚑𝚎 𝚘𝚌𝚌𝚊𝚜𝚒𝚘𝚗𝚊𝚕 𝚐𝚞𝚒𝚕𝚝𝚢 𝚙𝚕𝚎𝚊𝚜𝚞𝚛𝚎).\n\n𝙸 𝚐𝚘𝚝 𝚝𝚒𝚛𝚎𝚍 𝚘𝚏 𝚙𝚎𝚘𝚙𝚕𝚎 𝚊𝚜𝚔𝚒𝚗𝚐 𝚖𝚎 𝚏𝚘𝚛 𝚛𝚎𝚌𝚘𝚖𝚖𝚎𝚗𝚍𝚊𝚝𝚒𝚘𝚗𝚜 𝚊𝚗𝚍 𝚖𝚎 𝚑𝚊𝚟𝚒𝚗𝚐 𝚝𝚘 𝚝𝚑𝚒𝚗𝚔 𝚝𝚘𝚘 𝚖𝚞𝚌𝚑 𝚊𝚋𝚘𝚞𝚝 𝚒𝚝 — 𝚜𝚘 𝚝𝚑𝚒𝚜 𝚒𝚜 𝚖𝚢 𝚜𝚘𝚕𝚞𝚝𝚒𝚘𝚗.\n\n𝙴𝚟𝚎𝚛𝚢 𝚝𝚒𝚝𝚕𝚎 𝚑𝚎𝚛𝚎 𝚒𝚜 𝙰𝚟𝚒𝚗𝚊𝚜𝚑 𝙰𝚙𝚙𝚛𝚘𝚟𝚎𝚍 👍 𝚊𝚗𝚍 𝚝𝚛𝚞𝚜𝚝 𝚖𝚎, 𝚝𝚑𝚎𝚛𝚎'𝚜 𝚜𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚏𝚘𝚛 𝚎𝚟𝚎𝚛𝚢𝚘𝚗𝚎.\n\n𝙸𝚏 𝚢𝚘𝚞𝚛 𝚏𝚊𝚟𝚘𝚛𝚒𝚝𝚎 𝚍𝚒𝚍𝚗'𝚝 𝚖𝚊𝚔𝚎 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝, 𝚒𝚝'𝚜 𝚋𝚎𝚌𝚊𝚞𝚜𝚎 𝚢𝚘𝚞𝚛 𝚝𝚊𝚜𝚝𝚎 𝚒𝚜 𝚜𝚑𝚒𝚝𝚎, respectfully :p\n\n𝙴𝚗𝚓𝚘𝚢 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝.";
   const linkText = "𝙰𝚟𝚒𝚗𝚊𝚜𝚑";
   const linkHref = "https://www.linkedin.com/in/avinash-praveen/";
   
@@ -79,7 +79,7 @@ export default function Home() {
                     🅐🅥🅘🅜🅓🅑
                   </h1>
                 </div>
-                 <div className="mx-auto max-w-[700px] text-primary md:text-xl text-justify font-bold">
+                 <div className="mx-auto max-w-[700px] text-primary md:text-xl text-justify font-bold whitespace-pre-wrap">
                   <Typewriter 
                     text={descriptionText} 
                     linkText={linkText} 

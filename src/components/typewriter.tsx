@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -17,10 +18,13 @@ export function Typewriter({
   linkText,
   linkHref,
   linkClassName,
-  speed = 100,
+  speed = 50, // Faster speed
 }: TypewriterProps) {
   const [displayedText, setDisplayedText] = useState<React.ReactNode[]>([]);
-  const words = text.split(' ');
+  
+  // Process text to handle newlines and split into words
+  const processedText = text.replace(/\n/g, ' \n ');
+  const words = processedText.split(' ');
   const linkIndex = words.findIndex(word => word.includes(linkText));
 
   useEffect(() => {
@@ -35,6 +39,11 @@ export function Typewriter({
 
       setDisplayedText(prev => {
         const newWord = words[currentWordIndex];
+
+        if (newWord === '\n') {
+          return [...prev, <br key={`br-${currentWordIndex}`} />];
+        }
+        
         let node: React.ReactNode = newWord;
 
         if (currentWordIndex === linkIndex) {
@@ -44,13 +53,13 @@ export function Typewriter({
               target="_blank"
               rel="noopener noreferrer"
               className={cn(linkClassName)}
+              key={`link-${currentWordIndex}`}
             >
               {linkText}
             </Link>
           );
         }
         
-        // Add a space after each word except the last one
         return [...prev, node, ' '];
       });
 
@@ -58,7 +67,7 @@ export function Typewriter({
     }, speed);
 
     return () => clearInterval(intervalId);
-  }, [text, linkText, linkHref, linkClassName, speed]);
+  }, [text, linkText, linkHref, linkClassName, speed]); // Rerun when text changes
 
   return (
     <p>
