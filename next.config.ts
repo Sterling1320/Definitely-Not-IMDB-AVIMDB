@@ -108,6 +108,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn.marvel.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'postercinema.eu',
       }
     ],
   },
