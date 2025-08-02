@@ -1,3 +1,4 @@
+
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
@@ -92,6 +93,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 's.pv-target-images.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'preview.redd.it',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.redd.it',
+      }
     ],
   },
 };
