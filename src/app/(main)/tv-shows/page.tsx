@@ -10,7 +10,7 @@ export default function TvShowsPage() {
         <div className="flex flex-col">
           <h1 className="text-4xl font-bold tracking-tight font-headline text-center">𝔹𝕚𝕟𝕘𝕖 𝕎𝕠𝕣𝕥𝕙𝕪 𝕋𝕍 𝕊𝕙𝕠𝕨𝕤</h1>
           <p className="text-muted-foreground text-sm mt-2 self-end">
-            in my opinion
+            * In my opinion
           </p>
         </div>
       </div>
