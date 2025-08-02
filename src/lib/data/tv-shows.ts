@@ -1,23 +1,7 @@
+
 import type { Content } from '@/types';
 
 export const tvShows: Content[] = [
-  {
-    id: 3,
-    title: 'Breaking Bad',
-    type: 'TV Show',
-    posterUrl: 'https://m.media-amazon.com/images/M/MV5BODFhZjAwNjEtZDFjNi00ZTEyLThkYjUtMTEzNTkxMDIxN2YwXkEyXkFqcGc@._V1_.jpg',
-    aiHint: 'desert chemistry',
-    shortDescription: 'A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine.',
-    synopsis: 'A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family\'s future.',
-    personalReview: 'One of the greatest TV shows ever made. The character development of Walter White is phenomenal, and the plot is gripping from start to finish.',
-    rating: 10,
-    details: {
-      genre: ['Crime', 'Drama', 'Thriller'],
-      year: 2008,
-      episodes: 62,
-    },
-    externalLinks: [{ label: 'Watch Now', url: 'https://www.imdb.com/title/tt0903747/' }],
-  },
    {
     id: 45,
     title: 'Chernobyl',
@@ -169,23 +153,6 @@ export const tvShows: Content[] = [
       episodes: 8,
     },
     externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/tv/blue-eye-samurai-102328' }],
-  },
-  {
-    id: 4,
-    title: 'Fleabag',
-    type: 'TV Show',
-    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMjA4ODUzNTE4OF5BMl5BanBnXkFtZTgwMzA2OTEwMDI@._V1_.jpg',
-    aiHint: 'woman thinking',
-    shortDescription: 'A dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London.',
-    synopsis: 'A comedic and poignant look at a dry-witted, grief-riddled woman as she navigates life and love in London.',
-    personalReview: 'Painfully funny and deeply moving. Phoebe Waller-Bridge is a genius. The fourth-wall breaks are used to incredible effect.',
-    rating: 9.5,
-    details: {
-      genre: ['Comedy', 'Drama'],
-      year: 2016,
-      episodes: 12,
-    },
-    externalLinks: [{ label: 'Watch Now', url: 'https://www.imdb.com/title/tt5687612/' }],
   },
     {
     id: 54,
