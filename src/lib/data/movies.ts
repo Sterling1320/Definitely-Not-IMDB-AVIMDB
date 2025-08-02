@@ -1,3 +1,4 @@
+
 import type { Content } from '@/types';
 
 export const movies: Content[] = [
@@ -344,6 +345,31 @@ export const movies: Content[] = [
     externalLinks: [{ label: 'Watch Now', url: 'https://archive.org/details/sam.-bahadur.-2023.1080p' }],
   },
   {
+    id: 75,
+    title: 'Harry Potter Series',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/I/718OJKgQOcL._UF1000,1000_QL80_.jpg',
+    aiHint: 'wizard castle',
+    shortDescription: 'The magical journey of a young wizard, Harry Potter, as he discovers his destiny and battles the dark forces of Lord Voldemort.',
+    synopsis: 'The series follows the life of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry\'s struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people).',
+    personalReview: 'An absolute cornerstone of modern fantasy. Watching Harry grow up and face incredible challenges is a magical journey for any viewer. The world-building is second to none, creating a universe you wish you could live in. A timeless classic for all generations.',
+    rating: 9.5,
+    details: {
+      genre: ['Fantasy', 'Adventure', 'Family'],
+      year: 2001,
+    },
+    externalLinks: [
+      { label: 'Philosopher\'s Stone', url: 'https://www6.f2movies.to/movie/harry-potter-and-the-philosophers-stone-19812' },
+      { label: 'Chamber of Secrets', url: 'https://www6.f2movies.to/movie/harry-potter-and-the-chamber-of-secrets-19705' },
+      { label: 'Prisoner of Azkaban', url: 'https://www6.f2movies.to/movie/harry-potter-and-the-prisoner-of-azkaban-19594' },
+      { label: 'Goblet of Fire', url: 'https://www6.f2movies.to/movie/harry-potter-and-the-goblet-of-fire-19637' },
+      { label: 'Order of the Phoenix', url: 'https://www6.f2movies.to/movie/harry-potter-and-the-order-of-the-phoenix-19706' },
+      { label: 'Half-Blood Prince', url: 'https://www6.f2movies.to/movie/harry-potter-and-the-halfblood-prince-19730' },
+      { label: 'Deathly Hallows Pt 1', url: 'https://www6.f2movies.to/movie/harry-potter-and-the-deathly-hallows-part-1-19699' },
+      { label: 'Deathly Hallows Pt 2', url: 'https://www6.f2movies.to/movie/harry-potter-and-the-deathly-hallows-part-2-19751' },
+    ],
+  },
+  {
     id: 29,
     title: 'Prisoners',
     type: 'Movie',
@@ -483,7 +509,7 @@ export const movies: Content[] = [
     id: 43,
     title: 'Jolly LLB',
     type: 'Movie',
-    posterUrl: 'https://m.media-amazon.com/images/S/pv-target-images/7924c79e97430a1d7875b2d8f8279a3e83459c03f0c9d9e2acbcc3476b8a6c81.jpg',
+    posterUrl: 'https://s.pv-target-images.com/7924c79e97430a1d7875b2d8f8279a3e83459c03f0c9d9e2acbcc3476b8a6c81.jpg',
     aiHint: 'lawyer courtroom',
     shortDescription: 'A small-time lawyer takes on a high-profile case against a powerful and corrupt individual.',
     synopsis: 'Jagdish "Jolly" Tyagi, a struggling lawyer, moves to the city to make a name for himself. He takes on a challenging and controversial hit-and-run case, fighting for justice against all odds in a corrupt system.',
