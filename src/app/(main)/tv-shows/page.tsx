@@ -6,9 +6,9 @@ import type { Content } from '@/types';
 export default function TvShowsPage() {
   return (
     <div className="container py-12">
-      <div className="text-center mb-8">
+      <div className="mb-8 flex flex-col items-center">
         <h1 className="text-4xl font-bold tracking-tight font-headline">𝔹𝕚𝕟𝕘𝕖 𝕎𝕠𝕣𝕥𝕙𝕪 𝕋𝕍 𝕊𝕙𝕠𝕨𝕤</h1>
-        <p className="text-muted-foreground text-sm mt-2">
+        <p className="text-muted-foreground text-sm mt-2 self-end">
           in my opinion
         </p>
       </div>
