@@ -6,16 +6,18 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Menu, Clapperboard } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useAnimation } from '@/context/animation-context';
 
 const navLinks = [
-  { href: '/movies', label: 'Movies' },
-  { href: '/tv-shows', label: 'TV Shows' },
-  { href: '/anime', label: 'Anime' },
-  { href: '/top-10', label: 'My Top 10 Overall' },
+  { href: '/movies', label: 'Movies', animation: 'movie' },
+  { href: '/tv-shows', label: 'TV Shows', animation: 'tv' },
+  { href: '/anime', label: 'Anime', animation: 'anime' },
+  { href: '/top-10', label: 'My Top 10 Overall', animation: 'star' },
 ];
 
 export function Header() {
   const pathname = usePathname();
+  const { handleNavigation } = useAnimation();
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -27,16 +29,17 @@ export function Header() {
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
+                onClick={(e) => handleNavigation(e, link.href, link.animation)}
                 className={cn(
-                  'transition-colors hover:text-primary',
+                  'transition-colors hover:text-primary cursor-pointer',
                   pathname === link.href ? 'text-primary' : 'text-muted-foreground'
                 )}
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </nav>
         </div>
@@ -55,16 +58,17 @@ export function Header() {
             </Link>
             <nav className="grid gap-4">
               {navLinks.map((link) => (
-                <Link
+                <a
                   key={link.href}
                   href={link.href}
+                  onClick={(e) => handleNavigation(e, link.href, link.animation)}
                   className={cn(
                     'flex items-center space-x-2 rounded-md p-2 transition-colors hover:bg-accent hover:text-accent-foreground',
                     pathname === link.href ? 'bg-accent' : ''
                   )}
                 >
                   {link.label}
-                </Link>
+                </a>
               ))}
             </nav>
           </SheetContent>
