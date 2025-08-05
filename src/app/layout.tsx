@@ -4,6 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { VantaBackground } from '@/components/vanta-background';
 import Script from 'next/script';
 import { AnimationProvider } from '@/context/animation-context';
+import { RootLayoutClient } from '@/components/root-layout-client';
 
 
 export const metadata: Metadata = {
@@ -26,7 +27,9 @@ export default function RootLayout({
       <body className="font-body antialiased">
         <AnimationProvider>
           <VantaBackground />
-          {children}
+          <RootLayoutClient>
+            {children}
+          </RootLayoutClient>
           <Toaster />
         </AnimationProvider>
         <Script src="/p5.min.js" strategy="beforeInteractive" />

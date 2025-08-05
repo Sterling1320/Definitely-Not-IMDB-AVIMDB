@@ -1,7 +1,7 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-import { createContext, useContext, useState, ReactNode, useCallback } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
+import { createContext, useContext, useState, ReactNode, useCallback, useEffect } from 'react';
 
 type AnimationType = 'movie' | 'tv' | 'anime' | 'star' | '';
 
@@ -17,28 +17,25 @@ export function AnimationProvider({ children }: { children: ReactNode }) {
   const [isNavigating, setIsNavigating] = useState(false);
   const [animationType, setAnimationType] = useState<AnimationType>('');
   const router = useRouter();
+  const pathname = usePathname();
 
   const handleNavigation = useCallback((e: React.MouseEvent<HTMLElement>, path: string, type: AnimationType) => {
     e.preventDefault();
-    if (path === window.location.pathname) return;
+    if (path === pathname) return;
 
     setAnimationType(type);
     setIsNavigating(true);
 
     setTimeout(() => {
       router.push(path);
-      // We'll reset the navigating state on the new page load
-    }, 800); // This duration should match your longest page-out animation
-  }, [router]);
+    }, 800); 
+  }, [router, pathname]);
 
-  // This effect will reset the navigation state after the new page has loaded
-  // and the fade-in animation has begun.
-  if (isNavigating) {
-    setTimeout(() => {
-      setIsNavigating(false);
-      setAnimationType('');
-    }, 1000); // A bit longer than the navigation timeout
-  }
+  useEffect(() => {
+    // Reset navigation state after the new page is loaded
+    setIsNavigating(false);
+    setAnimationType('');
+  }, [pathname]);
 
 
   return (
