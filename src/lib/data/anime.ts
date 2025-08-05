@@ -316,6 +316,22 @@ export const anime: Content[] = [
     externalLinks: [{ label: 'Watch Now', url: 'https://animesugetv.io/watch/tokyo-revengers-hcwuw/ep-1' }],
   },
   {
+    id: 122,
+    title: 'The Disastrous Life of Saiki K.',
+    type: 'Anime',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMzJhYWEyMWUtZDYwNS00NTU4LTgwODItYjBlNzEwMTc5MTc2XkEyXkFqcGc@._V1_.jpg',
+    aiHint: 'psychic high school',
+    shortDescription: 'A high school student with immense psychic powers tries to live a normal, quiet life, but his eccentric classmates and family make it impossible.',
+    synopsis: 'Saiki Kusuo is a high school student who was born with all manner of psychic abilities, including telepathy, psychokinesis, and teleportation. He tries to keep his powers a secret and live a normal life, but he is constantly thwarted by his quirky classmates and the absurd situations they drag him into. All he wants is a quiet life, but that seems to be the one thing his powers can\'t get him.',
+    personalReview: 'One of the most consistently hilarious comedy anime I\'ve ever seen. The rapid-fire jokes, fourth-wall breaks, and lovable cast of characters make it endlessly rewatchable. Saiki\'s deadpan delivery is perfect.',
+    rating: 9.5,
+    details: {
+      genre: ['Comedy', 'Supernatural', 'School', 'Slice of Life'],
+      year: 2016,
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://animesugetv.io/watch/the-disastrous-life-of-saiki-k-8mxze/ep-1' }],
+  },
+  {
     id: 119,
     title: 'Demon Slayer: Kimetsu no Yaiba',
     type: 'Anime',
