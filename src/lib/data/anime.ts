@@ -416,7 +416,7 @@ export const anime: Content[] = [
     id: 125,
     title: 'Magic Kaito 1412',
     type: 'Anime',
-    posterUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHd8NxSbQbfg1T2kL8NN3t0MLlu0yjbibBKg&s',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BNDk2NjU1MjMtMzMzZC00MGM4LThhNjctMjg0MTA2ZmI3ZDViXkEyXkFqcGc@._V1_.jpg',
     aiHint: 'magician thief',
     shortDescription: 'A high school student and skilled magician takes on the mantle of the "Phantom Thief Kaito Kid" to uncover the truth behind his father\'s death.',
     synopsis: 'Kaito Kuroba is a talented magician who discovers that his deceased father was the original Phantom Thief Kaito Kid. He learns that his father was murdered by a mysterious organization seeking a mythical gem called Pandora. Kaito takes up his father\'s mantle to find the gem before the organization does, leading to spectacular heists and battles with police.',
