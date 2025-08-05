@@ -160,6 +160,13 @@ body {
   }
 }
 
+@keyframes dot-pulse {
+  0%, 100% { content: '.'; }
+  25% { content: '..'; }
+  50% { content: '...'; }
+  75% { content: '..'; }
+}
+
 
 .animate-page-fade-out {
   animation: page-fade-out 0.5s ease-out forwards;
@@ -188,6 +195,12 @@ body {
 .animate-rotating-star-out {
   animation: rotating-star-out 0.8s ease-in-out forwards;
 }
+
+.animate-dot-pulse::after {
+  content: '.';
+  animation: dot-pulse 1.5s infinite;
+}
+
 
 @keyframes cursor-blink {
   0%, 100% { opacity: 1; }
