@@ -821,7 +821,7 @@ export const anime: Content[] = [
     id: 150,
     title: 'Maid Sama!',
     type: 'Anime',
-    posterUrl: 'https://m.media-amazon.com/images/M/MV5BYzg1MTU3MWMtYjJlNi00YzQ2LTg3YTUtMTM1NzY4Y2Y5MDdiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BZjMyYmExYWItYWY2Yi00ZDEyLTgwYTctN2RjMzkxMWIxOWE3XkEyXkFqcGc@._V1_.jpg',
     aiHint: 'girl maid outfit',
     shortDescription: 'The student council president of a formerly all-boys school secretly works at a maid cafe, a fact that the most popular boy in school discovers.',
     synopsis: 'Misaki Ayuzawa is the first female student council president at a once all-boys school. She rules with an iron fist but has a secret: she works part-time at a maid cafe to help her family. Her secret is discovered by Takumi Usui, the most popular boy in school, who begins to take an interest in her.',
