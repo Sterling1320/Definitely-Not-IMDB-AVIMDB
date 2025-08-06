@@ -8,10 +8,10 @@ export default function MoviesPage() {
     <div className="container py-12">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold tracking-tight font-headline">
-          The Greatest Movies that I have ever watched (So Far...)
+          ℝ𝕒𝕥𝕖𝕕 𝔸 𝕗𝕠𝕣 𝔸𝕧𝕚𝕟𝕒𝕤𝕙
         </h1>
         <p className="text-muted-foreground text-sm mt-2">
-          Movies after #20 are loosely ranked.
+          You’ll either love it or you’ll hate it ; no middle ground.
         </p>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
