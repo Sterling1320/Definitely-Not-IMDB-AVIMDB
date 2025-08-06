@@ -8,7 +8,7 @@ export default function MoviesPage() {
     <div className="container py-12">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold tracking-tight font-headline">
-          ℝ𝕒𝕥𝕖𝕕 𝔸 𝕗𝕠𝕣 𝔸𝕧𝕚𝕟𝕒𝕤𝕙
+        ℝ𝕖𝕖𝕝 𝔾𝕠𝕠𝕕 𝕊𝕥𝕦𝕗𝕗
         </h1>
         <p className="text-muted-foreground text-sm mt-2">
           You’ll either love it or you’ll hate it ; no middle ground.

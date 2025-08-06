@@ -8,7 +8,7 @@ export default function TvShowsPage() {
     <div className="container py-12">
       <div className="mb-8 flex justify-center">
         <div className="flex flex-col">
-          <h1 className="text-4xl font-bold tracking-tight font-headline text-center">𝔹𝕚𝕟𝕘𝕖 𝕎𝕠𝕣𝕥𝕙𝕪 𝕋𝕍 𝕊𝕙𝕠𝕨𝕤</h1>
+          <h1 className="text-4xl font-bold tracking-tight font-headline text-center">𝕊𝕖𝕣𝕚𝕖𝕤-𝕠𝕦𝕤𝕝𝕪 𝔾𝕠𝕠𝕕</h1>
           <p className="text-muted-foreground text-sm mt-2 self-end">
             * In my opinion
           </p>
