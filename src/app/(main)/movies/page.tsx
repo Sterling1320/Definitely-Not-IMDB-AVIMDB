@@ -7,10 +7,10 @@ export default function MoviesPage() {
   return (
     <div className="container py-12">
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold tracking-tight font-headline">
+        <h1 className="text-4xl font-bold tracking-tight font-headline text-primary">
         ℝ𝕖𝕖𝕝 𝔾𝕠𝕠𝕕 𝕊𝕥𝕦𝕗𝕗
         </h1>
-        <p className="text-muted-foreground text-sm mt-2">
+        <p className="text-primary text-sm mt-2">
           Movies so good, they'll make you wanna lift your hands in the air and yell "Absolute Cinema"
         </p>
       </div>
