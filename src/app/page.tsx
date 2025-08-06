@@ -52,7 +52,7 @@ export default function Home() {
                     🅐🅥🅘🅜🅓🅑
                   </h1>
                 </div>
-                 <div className="mx-auto max-w-[700px] text-primary md:text-xl text-justify font-bold whitespace-pre-wrap font-cormorant">
+                 <div className="mx-auto max-w-[700px] text-primary text-xl md:text-2xl text-justify font-bold whitespace-pre-wrap font-cormorant">
                   <Typewriter 
                     text={descriptionText} 
                     linkText={linkText} 
@@ -72,7 +72,7 @@ export default function Home() {
                     <div className="mx-auto bg-primary/20 p-4 rounded-full">
                       <Film className="h-12 w-12 text-primary" />
                     </div>
-                    <CardTitle className="mt-4 font-headline">Movies</CardTitle>
+                    <CardTitle className="mt-4 font-headline text-primary">Movies</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">Browse through a collection of cinematic masterpieces.</p>
@@ -86,7 +86,7 @@ export default function Home() {
                     <div className="mx-auto bg-primary/20 p-4 rounded-full">
                       <Tv className="h-12 w-12 text-primary" />
                     </div>
-                    <CardTitle className="mt-4 font-headline">TV Shows</CardTitle>
+                    <CardTitle className="mt-4 font-headline text-primary">TV Shows</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">Catch up on the most binge-worthy series.</p>
@@ -100,7 +100,7 @@ export default function Home() {
                     <div className="mx-auto bg-primary/20 p-4 rounded-full">
                       <Clapperboard className="h-12 w-12 text-primary" />
                     </div>
-                    <CardTitle className="mt-4 font-headline">Anime</CardTitle>
+                    <CardTitle className="mt-4 font-headline text-primary">Anime</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">Dive into captivating animated worlds from Japan.</p>
@@ -114,7 +114,7 @@ export default function Home() {
                     <div className="mx-auto bg-primary/20 p-4 rounded-full">
                       <Star className="h-12 w-12 text-primary" />
                     </div>
-                    <CardTitle className="mt-4 font-headline">My Top 10 Overall</CardTitle>
+                    <CardTitle className="mt-4 font-headline text-primary">My Top 10 Overall</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">See my highest-rated picks across all categories.</p>
