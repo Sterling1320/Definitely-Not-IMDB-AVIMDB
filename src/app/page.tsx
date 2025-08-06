@@ -18,8 +18,8 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const { isNavigating, handleNavigation } = useAnimation();
   
-  const descriptionText = "𝙷𝚎𝚕𝚕𝚘, 𝙸'𝚖 𝙰𝚟𝚒𝚗𝚊𝚜𝚑 𝚊𝚗𝚍 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 '𝙰𝚅𝙸𝙼𝙳𝙱', 𝚖𝚢 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕 𝚟𝚊𝚞𝚕𝚝 𝚘𝚏 𝚌𝚒𝚗𝚎𝚖𝚊𝚝𝚒𝚌 𝚝𝚛𝚎𝚊𝚜𝚞𝚛𝚎𝚜 (𝚊𝚗𝚍 𝚝𝚑𝚎 𝚘𝚌𝚌𝚊𝚜𝚒𝚘𝚗𝚊𝚕 𝚐𝚞𝚒𝚕𝚝𝚢 𝚙𝚕𝚎𝚊𝚜𝚞𝚛𝚎s).\n\n𝙸 𝚐𝚘𝚝 𝚝𝚒𝚛𝚎𝚍 𝚘𝚏 𝚙𝚎𝚘𝚙𝚕𝚎 𝚊𝚜𝚔𝚒𝚗𝚐 𝚖𝚎 𝚏𝚘𝚛 𝚛𝚎𝚌𝚘𝚖𝚖𝚎𝚗𝚍𝚊𝚝𝚒𝚘𝚗𝚜 𝚊𝚗𝚍 𝚖𝚎 𝚑𝚊𝚟𝚒𝚗𝚐 𝚝𝚘 𝚝𝚑𝚒𝚗𝚔 𝚝𝚘𝚘 𝚖𝚞𝚌𝚑 𝚊𝚋𝚘𝚞𝚝 𝚒𝚝, 𝚜𝚘 𝙸 𝚍𝚒𝚍 𝚠𝚑𝚊𝚝 𝚊𝚗𝚢 𝚝𝚛𝚞𝚎 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚎𝚛 𝚠𝚘𝚞𝚕𝚍 𝚍𝚘 ,𝙸 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚎𝚍 𝚊 𝚜𝚘𝚕𝚞𝚝𝚒𝚘𝚗 𝚊𝚗𝚍 𝙰𝚅𝙸𝙼𝙳𝙱 𝚠𝚊𝚜 𝚋𝚘𝚛𝚗.\n\n𝙴𝚟𝚎𝚛𝚢 𝚝𝚒𝚝𝚕𝚎 𝚑𝚎𝚛𝚎 𝚒𝚜 𝙰𝚟𝚒𝚗𝚊𝚜𝚑 𝙰𝚙𝚙𝚛𝚘𝚟𝚎𝚍 👍 𝚊𝚗𝚍 𝚝𝚛𝚞𝚜𝚝 𝚖𝚎, 𝚝𝚑𝚎𝚛𝚎’𝚜 𝚜𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚏𝚘𝚛 𝚎𝚟𝚎𝚛𝚢𝚘𝚗𝚎.\n\n𝙸𝚏 𝚢𝚘𝚞𝚛 𝚏𝚊𝚟𝚘𝚛𝚒𝚝𝚎 𝚍𝚒𝚍𝚗’𝚝 𝚖𝚊𝚔𝚎 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝, 𝚒𝚝’𝚜 𝚋𝚎𝚌𝚊𝚞𝚜𝚎 𝚢𝚘𝚞𝚛 𝚝𝚊𝚜𝚝𝚎 𝚒𝚜 𝚜𝚑𝚒𝚝𝚎 :p (𝚛𝚎𝚜𝚙𝚎𝚌𝚝𝚏𝚞𝚕𝚕𝚢)\n\n𝙴𝚗𝚓𝚘𝚢 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝!";
-  const linkText = "Avinash";
+  const descriptionText = `Hello! I'm Avinash. People keep asking me “Bhai kuch accha suggest karna dekhne ke liye”, so this is my permanent answer because I'm too lazy to think only for them to completely ignore my suggestion, so it's better to let them choose ("Wow! A lazy and programmatic solution?!" – Bill Gates while shedding a happy tear). There is something for all types of audiences, so remember, If it’s on the list, it’s worth watching.`;
+  const linkText = "I'm Avinash";
   const linkHref = "https://www.linkedin.com/in/avinash-praveen/";
   
   return (
@@ -52,7 +52,7 @@ export default function Home() {
                     🅐🅥🅘🅜🅓🅑
                   </h1>
                 </div>
-                 <div className="mx-auto max-w-[700px] text-primary md:text-xl text-justify font-bold whitespace-pre-wrap">
+                 <div className="mx-auto max-w-[700px] text-primary md:text-xl text-justify font-bold whitespace-pre-wrap font-cormorant">
                   <Typewriter 
                     text={descriptionText} 
                     linkText={linkText} 
