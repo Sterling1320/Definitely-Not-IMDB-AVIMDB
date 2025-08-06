@@ -25,7 +25,7 @@ export function RootLayoutClient({ children }: { children: React.ReactNode }) {
             {animationType === 'star' && <Star className="h-32 w-32 text-primary animate-rotating-star-out" />}
           </div>
           <div className="mt-8 text-2xl text-primary font-headline animate-page-fade-in">
-            <span className="italic">𝓛𝓸𝓪𝓭𝓲𝓷𝓰 𝓒𝓸𝓷𝓽𝓮𝓷𝓽</span>
+            <span className="italic">𝓛𝓸𝓪𝓭𝓲𝓷𝓰</span>
             <span className="animate-dot-pulse" />
           </div>
         </div>
