@@ -18,7 +18,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const { isNavigating, handleNavigation } = useAnimation();
   
-  const descriptionText = `Hello! I'm Avinash. People keep asking me “Bhai kuch accha suggest karna dekhne ke liye”, so this is my permanent answer because I'm too lazy to think only for them to completely ignore my suggestion, so it's better to let them choose ("Wow! A lazy and programmatic solution?!" – Bill Gates while shedding a happy tear). There is something for all types of audiences, so remember, If it’s on the list, it’s worth watching.`;
+  const descriptionText = `Hello! I'm I am Avinash. People keep asking me “Bhai kuch accha suggest karna dekhne ke liye”, but I'm too lazy to think for others, only for them to ignore my suggestion, so this is my solution; Let them choose for themselves  ("Wow! A lazy and programmatic solution?!" – Bill Gates while shedding a happy tear). There is something for all types of audiences, so remember, If it’s on the list, it’s worth watching.`;
   const linkText = "I'm Avinash";
   const linkHref = "https://www.linkedin.com/in/avinash-praveen/";
   
