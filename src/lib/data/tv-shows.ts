@@ -535,7 +535,7 @@ export const tvShows: Content[] = [
     id: 219,
     title: 'Dept. Q',
     type: 'TV Show',
-    posterUrl: 'https://images.filmibeat.com/img/popcorn/ws_images/dept.%20q-1786/dept.%20q-1786-s01.jpg',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BNWQ3MDQ2MGQtOGM0MC00MzlkLWE0ODQtYzE4Zjc3Mjc1ZWI5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     aiHint: 'crime thriller',
     shortDescription: 'Follows Carl Mørck, a disgraced detective who is reassigned to the newly created Department Q, a cold case unit.',
     synopsis: 'The series centers on the brilliant but emotionally damaged cold case detective Carl Mørck, who is banished to a basement office and tasked with solving a backlog of cold cases. He and his new assistant, Assad, form an unlikely partnership as they dig into long-forgotten crimes.',
