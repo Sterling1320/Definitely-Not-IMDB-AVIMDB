@@ -530,5 +530,22 @@ export const tvShows: Content[] = [
       episodes: 12,
     },
     externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/tv/devil-may-cry-122788' }],
+  },
+  {
+    id: 219,
+    title: 'Dept. Q',
+    type: 'TV Show',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BNTg5Y2VjYjUtYjM4Yi00ZDIyLThjZjYtNzE2ZGFhODFlYzgxXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg',
+    aiHint: 'crime thriller',
+    shortDescription: 'Follows Carl Mørck, a disgraced detective who is reassigned to the newly created Department Q, a cold case unit.',
+    synopsis: 'The series centers on the brilliant but emotionally damaged cold case detective Carl Mørck, who is banished to a basement office and tasked with solving a backlog of cold cases. He and his new assistant, Assad, form an unlikely partnership as they dig into long-forgotten crimes.',
+    personalReview: 'A gripping and dark Scandinavian noir. The cases are intriguing and the characters are complex. A must-watch for fans of crime thrillers.',
+    rating: 9.2,
+    details: {
+      genre: ['Crime', 'Drama', 'Thriller'],
+      year: 2024,
+      episodes: 8,
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-tv/dept-q-126034.11172958' }],
   }
 ];
