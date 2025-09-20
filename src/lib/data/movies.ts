@@ -61,7 +61,7 @@ export const movies: Content[] = [
     title: 'The Shawshank Redemption',
     type: 'Movie',
     posterUrl: 'https://m.media-amazon.com/images/I/51mEKP8jl5L._UF894,1000_QL80_.jpg',
-    aiHint: 'prison escape',
+aiHint: 'prison escape',
     shortDescription: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
     synopsis: 'Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.',
     personalReview: 'An absolute timeless classic. A story of hope, friendship, and perseverance that resonates deeply. It\'s a film everyone should see at least once.',
@@ -921,5 +921,352 @@ export const movies: Content[] = [
     },
     externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/movie/the-proposal-18092' }],
   },
+  {
+    id: 200,
+    title: 'How to Train Your Dragon Trilogy',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'dragon viking',
+    shortDescription: 'A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself.',
+    synopsis: 'The story of Hiccup, a young Viking who defies his tribe\'s tradition of dragon slaying when he befriends a fearsome Night Fury dragon named Toothless. The trilogy follows their adventures as they fight to protect their world and prove that humans and dragons can coexist.',
+    personalReview: 'One of the best animated trilogies ever made. It has breathtaking animation, a beautiful story about friendship, and a ton of heart. The flying sequences are pure magic.',
+    rating: 9.6,
+    details: {
+      genre: ['Animation', 'Adventure', 'Family'],
+      year: 2010
+    },
+    externalLinks: [
+      { label: 'HTTYD 1', url: 'https://www6.f2movies.to/watch-movie/how-to-train-your-dragon-19703.5349049' },
+      { label: 'HTTYD 2', url: 'https://www6.f2movies.to/watch-movie/how-to-train-your-dragon-2-19749.5297359' },
+      { label: 'HTTYD 3', url: 'https://www6.f2movies.to/watch-movie/how-to-train-your-dragon-the-hidden-world-19853.5351971' }
+    ],
+  },
+  {
+    id: 201,
+    title: 'Real Steel',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMjEzMzEzNjg0N15BMl5BanBnXkFtZTcwMzg4NDk0Ng@@._V1_.jpg',
+    aiHint: 'robot boxing',
+    shortDescription: 'In the near future, robot boxing is a top sport. A struggling former boxer feels he\'s found a champion in a discarded robot.',
+    synopsis: 'A struggling ex-boxer thinks he\'s found a champion in a discarded robot. Along with his estranged son, he journeys to get a shot at the robot boxing championship.',
+    personalReview: 'A surprisingly heartfelt and exciting sci-fi sports movie. The robot fights are awesome, and the father-son story gives it a lot of emotional weight. A real crowd-pleaser.',
+    rating: 8.8,
+    details: {
+      genre: ['Action', 'Drama', 'Sci-Fi'],
+      year: 2011,
+      duration: '2h 7m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/real-steel-18725.5349760' }],
+  },
+  {
+    id: 202,
+    title: 'Kung Fu Panda Series',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BZDU5MDNiMGItYjVmZi00NDUxLTg2OTktNGE0NzNlNzM4NzgyXkEyXkFqcGc@._V1_.jpg',
+    aiHint: 'panda martial arts',
+    shortDescription: 'The adventures of a big, clumsy panda who is destined to become a kung fu master.',
+    synopsis: 'The series follows Po, a lazy, irreverent slacker panda, who is the biggest fan of Kung Fu around...which doesn\'t exactly come in handy while working every day in his family\'s noodle shop. Unexpectedly chosen to fulfill an ancient prophecy, Po\'s dreams become reality when he joins the world of Kung Fu and studies alongside his idols, the legendary Furious Five.',
+    personalReview: 'An awesome animated series that is hilarious, action-packed, and full of heart. Jack Black is perfect as Po. The animation is beautiful and the fight scenes are incredibly creative. Skadoosh!',
+    rating: 9.3,
+    details: {
+      genre: ['Animation', 'Action', 'Comedy'],
+      year: 2008
+    },
+    externalLinks: [
+      { label: 'Kung Fu Panda 1', url: 'https://www6.f2movies.to/watch-movie/kung-fu-panda-19331.5298022' },
+      { label: 'Kung Fu Panda 2', url: 'https://www6.f2movies.to/watch-movie/kung-fu-panda-2-19107.5298442' },
+      { label: 'Kung Fu Panda 3', url: 'https://www6.f2movies.to/watch-movie/kung-fu-panda-3-18639.5299324' },
+      { label: 'Kung Fu Panda 4', url: 'https://www6.f2movies.to/watch-movie/kung-fu-panda-4-106963.10353301' }
+    ],
+  },
+  {
+    id: 203,
+    title: 'Big Hero 6',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BM2JmNWI1ZGYtNWZhNS00ODM2LTg3M2QtZDNjYjc2NmNmNDc1XkEyXkFqcGc@._V1_.jpg',
+    aiHint: 'robot boy',
+    shortDescription: 'A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.',
+    synopsis: 'The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.',
+    personalReview: 'A beautiful and emotional story about grief and healing, disguised as a superhero movie. Baymax is an instantly lovable character. It\'s funny, action-packed, and will definitely make you cry.',
+    rating: 9.0,
+    details: {
+      genre: ['Animation', 'Action', 'Adventure'],
+      year: 2014,
+      duration: '1h 42m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/big-hero-6-19664.5349175' }],
+  },
+  {
+    id: 204,
+    title: 'Despicable Me Series',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_.jpg',
+    aiHint: 'minions gru',
+    shortDescription: 'A criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, but he finds their love is profoundly changing him for the better.',
+    synopsis: 'Supervillain Gru hatches a plan to steal the moon. Armed with his arsenal of shrink rays, freeze rays, and battle-ready vehicles, he is ready to vanquish all who stand in his way. But his world is turned upside down when he adopts three orphan girls who see him as a potential dad.',
+    personalReview: 'A hilarious and heartwarming animated series. Gru\'s journey from supervillain to super-dad is wonderful, and the Minions are iconic scene-stealers.',
+    rating: 8.7,
+    details: {
+      genre: ['Animation', 'Comedy', 'Family'],
+      year: 2010
+    },
+    externalLinks: [
+      { label: 'Despicable Me 1', url: 'https://www6.f2movies.to/watch-movie/despicable-me-19486.5349256' },
+      { label: 'Despicable Me 2', url: 'https://www6.f2movies.to/watch-movie/despicable-me-2-19480.5297776' }
+    ],
+  },
+  {
+    id: 205,
+    title: 'Penguins of Madagascar',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BM2JjZTNhMWYtN2M3ZC00MThkLWFlODAtNTdiM2I1N2U0N2MwXkEyXkFqcGc@._V1_.jpg',
+    aiHint: 'animated penguins',
+    shortDescription: 'Super spy teams aren\'t born...they\'re hatched. The penguins join forces with a chic undercover organization to stop a villainous octopus.',
+    synopsis: 'Skipper, Kowalski, Rico and Private, the four penguins from the Madagascar movies, join forces with the chic covert organization, the North Wind, to stop the villainous Dr. Octavius Brine from destroying the world as we know it.',
+    personalReview: 'A fast-paced and hilarious spy-caper. The penguins are brilliant comedic characters and the jokes come a mile a minute. "Kowalski, analysis!"',
+    rating: 8.5,
+    details: {
+      genre: ['Animation', 'Adventure', 'Comedy'],
+      year: 2014,
+      duration: '1h 32m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/penguins-of-madagascar-19555.5297650' }],
+  },
+  {
+    id: 206,
+    title: 'Cloudy with a Chance of Meatballs',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMzNmY2U4MDctZWU1ZC00OTk5LTk5YWItODAzMDI4OTM0NWNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'food falling',
+    shortDescription: 'A local scientist is often regarded as a failure until he invents a machine that can make food fall from the sky. But it comes with a price.',
+    synopsis: 'Flint Lockwood is a young inventor who dreams of creating something that will improve everyone\'s life. He invents a machine that converts water into food, and becomes a local hero when it starts raining cheeseburgers. But the machine soon runs amok.',
+    personalReview: 'A wonderfully weird and creative animated comedy. The visuals are colorful and imaginative, and the humor is genuinely clever. A very funny and unique film.',
+    rating: 8.6,
+    details: {
+      genre: ['Animation', 'Adventure', 'Comedy'],
+      year: 2009,
+      duration: '1h 30m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/cloudy-with-a-chance-of-meatballs-19040.5349526' }],
+  },
+  {
+    id: 207,
+    title: 'Spider-Man (Tom Holland)',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'spiderman mcu',
+    shortDescription: 'The MCU\'s iteration of Peter Parker, a high school student who tries to balance his life as an ordinary teenager with his crime-fighting superhero alter ego Spider-Man.',
+    synopsis: 'After his experiences with the Avengers, Peter Parker returns home to live with his Aunt May. Under the watchful eye of mentor Tony Stark, Peter starts to embrace his newfound identity as Spider-Man. He tries to fall back into his normal daily routine but is distracted by thoughts of proving himself to be more than just a friendly neighborhood superhero.',
+    personalReview: 'A fantastic and fresh take on Spider-Man. Tom Holland perfectly captures the youthful energy and awkwardness of Peter Parker. A fun and heartfelt trilogy that fits perfectly into the MCU.',
+    rating: 9.3,
+    details: {
+      genre: ['Action', 'Adventure', 'Sci-Fi'],
+      year: 2017
+    },
+    externalLinks: [
+      { label: 'Homecoming', url: 'https://www6.f2movies.to/watch-movie/spiderman-homecoming-19743.5297314' },
+      { label: 'Far From Home', url: 'https://www6.f2movies.to/watch-movie/spiderman-far-from-home-17240.5389384' },
+      { label: 'No Way Home', url: 'https://www6.f2movies.to/watch-movie/spider-man-no-way-home-71326.5601538' }
+    ],
+  },
+  {
+    id: 208,
+    title: 'Doctor Strange',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'magic sorcerer',
+    shortDescription: 'While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.',
+    synopsis: 'After a car accident ruins his career, a brilliant but arrogant surgeon, Dr. Stephen Strange, embarks on a journey to heal himself. He finds himself in a mysterious enclave known as Kamar-Taj, where he learns the secrets of the mystic arts and must become a protector of Earth against interdimensional threats.',
+    personalReview: 'A visually stunning and mind-bending entry in the MCU. It introduces a whole new dimension of magic and mysticism to the universe. Benedict Cumberbatch is perfectly cast.',
+    rating: 8.9,
+    details: {
+      genre: ['Action', 'Adventure', 'Fantasy'],
+      year: 2016,
+      duration: '1h 55m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/doctor-strange-19707.5297413' }],
+  },
+  {
+    id: 209,
+    title: 'Spider-Man (Tobey Maguire)',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'spiderman classic',
+    shortDescription: 'The original modern superhero trilogy, following Peter Parker as he gains spider-like abilities and learns that with great power comes great responsibility.',
+    synopsis: 'When nerdy high-schooler Peter Parker is bitten by a genetically-altered spider, he gains superhuman strength and the ability to cling to walls. He vows to use his abilities to fight crime, coming into conflict with super-villains like the Green Goblin and Doctor Octopus.',
+    personalReview: 'The trilogy that started it all for a generation of superhero fans. It has so much heart and a classic, earnest charm. Sam Raimi created something truly special. The second film is an all-time classic.',
+    rating: 9.4,
+    details: {
+      genre: ['Action', 'Adventure', 'Sci-Fi'],
+      year: 2002
+    },
+    externalLinks: [
+      { label: 'Spider-Man 1', url: 'https://www6.f2movies.to/watch-movie/spiderman-19397.5297941' },
+      { label: 'Spider-Man 2', url: 'https://www6.f2movies.to/watch-movie/spiderman-2-16492.5350981' },
+      { label: 'Spider-Man 3', url: 'https://www6.f2movies.to/watch-movie/spiderman-3-19433.5297875' }
+    ],
+  },
+  {
+    id: 210,
+    title: 'The Amazing Spider-Man Series',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'spiderman andrew garfield',
+    shortDescription: 'A grittier take on the web-slinger, as Peter Parker grapples with his parents\' past while protecting New York City.',
+    synopsis: 'Peter Parker, an outcast high schooler, was abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is. When he finds a mysterious briefcase that belonged to his father, he starts a quest to understand his parents\' disappearance - leading him directly to Oscorp and the lab of Dr. Curt Connors.',
+    personalReview: 'Andrew Garfield is a fantastic Spider-Man, perfectly capturing his wit and charm. The web-swinging sequences are breathtaking, and his chemistry with Emma Stone is incredible. A great duology that deserved more.',
+    rating: 8.8,
+    details: {
+      genre: ['Action', 'Adventure', 'Sci-Fi'],
+      year: 2012
+    },
+    externalLinks: [
+      { label: 'TASM 1', url: 'http://www6.f2movies.to/watch-movie/the-amazing-spiderman-19641.5349061' },
+      { label: 'TASM 2', url: 'https://www6.f2movies.to/watch-movie/the-amazing-spiderman-2-19386.5297965' }
+    ],
+  },
+  {
+    id: 211,
+    title: 'The Pianist',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMjEwNmEwYjgtNTk3ZC00NjljLTg5ZDctZTY3ZGQwZjRkZmQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'piano war',
+    shortDescription: 'A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.',
+    synopsis: 'The true story of Wladyslaw Szpilman, a brilliant Polish-Jewish pianist, who witnesses the restrictions Nazis place on Jews in the Polish capital, his family is rounded up to be shipped off to a Nazi labor camp. He escapes deportation and eludes capture by living in the ruins of Warsaw.',
+    personalReview: 'A powerful, harrowing, and deeply moving film about survival and the human spirit. Adrien Brody gives an incredible, Oscar-winning performance. It\'s a tough but essential watch.',
+    rating: 9.5,
+    details: {
+      genre: ['Biography', 'Drama', 'Music'],
+      year: 2002,
+      duration: '2h 30m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/the-pianist-19205.5298307' }],
+  },
+  {
+    id: 212,
+    title: 'The Town',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BM2I4ZWNhYjgtZmI1OS00MTliLTg3YWQtNjg2ZmUyY2Y5NzdkXkEyXkFqcGc@._V1_.jpg',
+    aiHint: 'bank robbers',
+    shortDescription: 'A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with the manager.',
+    synopsis: 'Doug MacRay is a long-time thief, who, smarter than the rest of his crew, is looking for his chance to exit the game. When a bank job leads to the group kidnapping an attractive branch manager, he takes on the role of finding out what she\'s seen and keeping her quiet. But his relationship with her soon develops into a romance.',
+    personalReview: 'A tense and gripping heist thriller with fantastic performances and direction from Ben Affleck. The action is realistic and intense, and the character drama is compelling.',
+    rating: 9.0,
+    details: {
+      genre: ['Crime', 'Drama', 'Thriller'],
+      year: 2010,
+      duration: '2h 5m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/the-town-18462.5349958' }],
+  },
+  {
+    id: 213,
+    title: 'The Matrix Trilogy',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'green code',
+    shortDescription: 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.',
+    synopsis: 'When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence. Neo joins legendary and dangerous rebel warrior Morpheus in the battle to destroy the illusion enslaving humanity.',
+    personalReview: 'A groundbreaking and mind-bending sci-fi action masterpiece that redefined the genre. The action, visual effects, and philosophical concepts were revolutionary. A cultural phenomenon.',
+    rating: 9.6,
+    details: {
+      genre: ['Action', 'Sci-Fi'],
+      year: 1999
+    },
+    externalLinks: [
+      { label: 'The Matrix', url: 'https://www6.f2movies.to/watch-movie/the-matrix-19724.5349115' },
+      { label: 'The Matrix Reloaded', url: 'https://www6.f2movies.to/watch-movie/the-matrix-reloaded-19496.5297749' },
+      { label: 'The Matrix Revolutions', url: 'https://www6.f2movies.to/watch-movie/the-matrix-revolutions-19370.5298007' }
+    ],
+  },
+  {
+    id: 214,
+    title: 'Ratatouille',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'rat chef',
+    shortDescription: 'A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.',
+    synopsis: 'Remy dreams of becoming a great chef, despite being a rat in a decidedly rodent-phobic profession. He moves to Paris to follow his dream, and with the help of hapless garbage boy Linguini, he puts his culinary skills to the test in the kitchen of a famous restaurant.',
+    personalReview: 'A beautiful and charming film about passion and defying expectations. The animation is gorgeous, and the food looks delicious. Anyone can cook!',
+    rating: 9.2,
+    details: {
+      genre: ['Animation', 'Adventure', 'Comedy'],
+      year: 2007,
+      duration: '1h 51m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/ratatouille-19398.5297938' }],
+  },
+  {
+    id: 215,
+    title: 'Rush Hour Trilogy',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMGZiMzViNmEtNTNlZi00MzFmLTk5NTEtNDE2OTUzNmNlMTY4XkEyXkFqcGc@._V1_.jpg',
+    aiHint: 'buddy cop',
+    shortDescription: 'A loyal and dedicated Hong Kong Inspector teams up with a reckless and loudmouthed LAPD detective to solve a series of international crimes.',
+    synopsis: 'When a Chinese consul\'s daughter is kidnapped in Los Angeles, he calls in Hong Kong detective inspector Lee to assist the FBI. The FBI, wanting to keep Lee out of the way, pairs him with the loudmouthed and reckless LAPD detective, James Carter. Despite their clashing personalities, they form an unlikely partnership to solve the case.',
+    personalReview: 'The quintessential buddy cop series. The chemistry between Jackie Chan and Chris Tucker is legendary. The action is amazing, and the comedy is non-stop. A hilarious and action-packed trilogy.',
+    rating: 9.0,
+    details: {
+      genre: ['Action', 'Comedy', 'Crime'],
+      year: 1998
+    },
+    externalLinks: [
+      { label: 'Rush Hour 1', url: 'https://www6.f2movies.to/movie/rush-hour-17470' },
+      { label: 'Rush Hour 2', url: 'https://www6.f2movies.to/watch-movie/rush-hour-2-17101.5302003' },
+      { label: 'Rush Hour 3', url: 'https://www6.f2movies.to/movie/rush-hour-3-16384' }
+    ],
+  },
+  {
+    id: 216,
+    title: 'Mr. & Mrs. Smith',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMTUxMzcxNzQzOF5BMl5BanBnXkFtZTcwMzQxNjUyMw@@._V1_FMjpg_UX1000_.jpg',
+    aiHint: 'spy couple',
+    shortDescription: 'A bored married couple is surprised to learn that they are both assassins hired by competing agencies to kill each other.',
+    synopsis: 'John and Jane Smith are a normal suburban couple with a boring, stagnant marriage. However, each of them has a secret: they are both legendary assassins working for competing organizations. The truth comes out when they are assigned to kill each other, leading to an explosive and hilarious battle of the sexes.',
+    personalReview: 'A fun and stylish action-comedy with incredible chemistry between Brad Pitt and Angelina Jolie. It\'s sexy, funny, and full of explosive action.',
+    rating: 8.6,
+    details: {
+      genre: ['Action', 'Comedy', 'Romance'],
+      year: 2005,
+      duration: '2h 0m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/mr-and-mrs-smith-19172.5352175' }],
+  },
+  {
+    id: 217,
+    title: 'Coach Carter',
+    type: 'Movie',
+    posterUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvm2MmchgJLZy8WlSpdZrmc5b-ZbYYX-evzA&s',
+    aiHint: 'basketball coach',
+    shortDescription: 'In 1999, Ken Carter returns to his old high school in Richmond, California, to get the basketball team into shape. With tough rules and academic discipline, he succeeds in setting the players on a winning streak. But when their grades start to suffer, he benches the entire team, sending shockwaves through the community.',
+    synopsis: 'A controversial high school basketball coach benches his undefeated team for their poor academic performance.',
+    personalReview: 'An inspiring and powerful sports drama based on a true story. Samuel L. Jackson is fantastic as Coach Carter. It\'s a great story about discipline, respect, and the importance of education.',
+    rating: 8.9,
+    details: {
+      genre: ['Biography', 'Drama', 'Sport'],
+      year: 2005,
+      duration: '2h 16m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/coach-carter-16269.5302978' }],
+  },
+  {
+    id: 218,
+    title: 'The Game Plan',
+    type: 'Movie',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BYjIzMDQ1ZDctNTUwOC00YmQyLTlhZGItNDIwZDIwMjcxMzVjXkEyXkFqcGc@._V1_.jpg',
+    aiHint: 'football player daughter',
+    shortDescription: 'A successful football quarterback\'s life is turned upside down when he discovers he has an 8-year-old daughter.',
+    synopsis: 'Joe Kingman, a star quarterback, is living the bachelor dream. His life changes when Peyton, the 8-year-old daughter he never knew existed, shows up at his doorstep. Now, the ultimate player must learn to juggle his career with ballet classes, bedtime stories, and the challenges of fatherhood.',
+    personalReview: 'A heartwarming and funny family comedy. Dwayne "The Rock" Johnson is surprisingly charming and shows off his comedic chops. It\'s a sweet and predictable, but very enjoyable, film.',
+    rating: 8.2,
+    details: {
+      genre: ['Comedy', 'Family', 'Sport'],
+      year: 2007,
+      duration: '1h 50m'
+    },
+    externalLinks: [{ label: 'Watch Now', url: 'https://www6.f2movies.to/watch-movie/the-game-plan-12942.5304973' }],
+  }
 ];
+
 
